@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vendinha ligeira</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Vendinha ligeira</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#cozinha">Cozinha</a></li>
+        <li><a href="#moveis">Móveis</a></li>
+        <li><a href="#eletro">Eletrônicos</a></li>
+        <li><a href="#diversos">Diversos</a></li>
+        <li><a href="#doacoes">Doações</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Veja aí se você quer alguma coisa...</h2>
+      <p>A gente tá se mudando e precisando vender ou doar quase tudo. Fizemos essa listinha pra facilitar e, se interessar, é só mandar mensagem que a gente acerta. :) </p>
+      <p>Todos os itens são usados, alguns bem novinhos, outros mais cansados. É só pedir que a gente manda fotos atuais. </p>
+    </section>
+
+    <section id="cozinha">
+      <h2>Cozinha</h2>
+      <div class="product-grid">
+        </div>
+    </section>
+
+    <section id="moveis">
+        <h2>Móveis</h2>
+        <div class="product-grid">
+          </div>
+      </section>
+
+      <section id="eletro">
+        <h2>Eletrônicos</h2>
+        <div class="product-grid">
+          </div>
+      </section>
+
+      <section id="diversos">
+        <h2>Diversos</h2>
+        <div class="product-grid">
+          </div>
+      </section>
+    </main>
+
+  <footer>
+    <p>© Vendinha ligeira até vender tudo (ou partir!).</p>
+  </footer>
+
+  <div id="productPopup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">×</span>
+      <img id="popupImage" src="" alt="Product Image">
+      <h2 id="popupTitle"></h2>
+      <p id="popupDescription"></p>
+      <a id="popupWhatsapp" href="" target="_blank">Vem de zap</a>
+      <button id="popupDownload">Salvar a Imagem</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
