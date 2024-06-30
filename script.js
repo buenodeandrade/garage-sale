@@ -72,6 +72,13 @@ const products = [
       },
       {
         category: "cozinha",
+        title: "Taças de cristal",
+        image: "images/tacacristal.jpg",
+        description: "Taça Bohemia Roberta - Vinho Tinto 350ml - Jg 06pcs. Na caixa, nunca usamos.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20taças%20Bohemia."
+      },
+      {
+        category: "cozinha",
         title: "Garrafas Térmicas",
         image: "images/garrafas.jpg",
         description: "Garrafas Térmicas de Inox Takeya 24 ThermoFlask. Algumas marquinhas de uso, mas boas. ",
@@ -86,10 +93,24 @@ const products = [
       },
       {
         category: "cozinha",
+        title: "Chaleira elétrica",
+        image: "images/chaleira.jpg",
+        description: "Chaleira Elétrica Britânia 1l 220v Inox (com pontos de ferrugem).",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chaleira."
+      },
+      {
+        category: "cozinha",
         title: "Panelas",
         image: "images/panelas.jpg",
         description: "Kirkland Signature (Costco) Hard Anodized Cookware.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20panelas."
+      },
+      {
+        category: "cozinha",
+        title: "Leiteira",
+        image: "images/leiteira.jpg",
+        description: "Leiteira antiaderente preta simples 2,4l.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20leiteira."
       },
       {
         category: "cozinha",
@@ -102,8 +123,29 @@ const products = [
         category: "cozinha",
         title: "Refratário Redondo",
         image: "images/fontignac.jpg",
-        description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açucar.",
+        description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açúcar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário."
+      },
+      {
+        category: "cozinha",
+        title: "Vaporeira (steamer)",
+        image: "images/steamer.jpg",
+        description: "Vaporeira Fontignac (steamer) 24 Cm - mais uma dos selinhos do pão de açúcar.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário."
+      },
+      {
+        category: "cozinha",
+        title: "Forma com Fundo Removível",
+        image: "images/formaremovivel.jpg",
+        description: "Forma Assadeira Redonda Com Fundo Removível - é essa, mas azul claro.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20fundo%20removível."
+      },
+      {
+        category: "cozinha",
+        title: "Forma de pão",
+        image: "images/formas.jpg",
+        description: "Duas formas de pão antiaderente Vermont 26cm Grafite - Tramontina.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20pão."
       },
       {
         category: "cozinha",
@@ -111,6 +153,34 @@ const products = [
         image: "images/talheres.jpg",
         description: "Jogo Talher Madrid Aco Inox 20 peças da saudosa Etna.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres."
+      },
+      {
+        category: "doacoes",
+        title: "Faca lacrada",
+        image: "images/facaathus.jpg",
+        description: "Faca para carne 8 polegadas Tramontina Athus. Nunca abrimos.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20faca%20Tramontina."
+      },
+      {
+        category: "cozinha",
+        title: "Conjunto de sobremesa",
+        image: "images/sobremesa.jpg",
+        description: "Conjunto de sobremesa de vidro floral com 7 peças que lembra casa de vó.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20sobremesa."
+      },
+      {
+        category: "cozinha",
+        title: "Boleira Pequena",
+        image: "images/boleirap.jpg",
+        description: "Boleira Pequena Com Pé Cristal Bolinha 20cm Wolff Pearl.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20pequena."
+      },
+      {
+        category: "cozinha",
+        title: "Boleira Grande",
+        image: "images/boleirag.jpg",
+        description: "Boleira de vidro para bolo com pé.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20grande."
       },
       {
         category: "moveis",
@@ -198,6 +268,13 @@ const products = [
       },
       {
         category: "eletro",
+        title: "Atari",
+        image: "images/atari.jpg",
+        description: "Atari Flashback com controles sem fio (o fio tá com uma emenda, mas funcionando, padrão VGA).",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Atari."
+      },
+      {
+        category: "eletro",
         title: "TV 32''",
         image: "images/tvlg.jpg",
         description: "Smart TV LED 32'' HD LG 32LQ621CBSB. Wi-Fi não tá funcionando.",
@@ -242,7 +319,7 @@ const products = [
         category: "diversos",
         title: "Colchão Emma",
         image: "images/colchao.jpg",
-        description: "Colchão Queen Emma Duo Comfort - 10 anos de garantia, conforto ortopédico dupla face -158x198cm.",
+        description: "Colchão Queen Emma Duo Comfort - 10 anos de garantia, conforto ortopédico dupla face - 158x198cm.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20colchão."
       },
       {
@@ -272,6 +349,20 @@ const products = [
         image: "images/molduras.jpg",
         description: "Molduras da Tok&Stok de diversas cores e tamanhos: A4, A3, carta, quadrado...",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20molduras."
+      },
+      {
+        category: "diversos",
+        title: "Ferro de passar",
+        image: "images/ferro.jpg",
+        description: "Ferro de Passar a Seco Black + Decker VFA Eco - Preto - Ferro de Passar a Seco.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20ferro."
+      },
+      {
+        category: "diversos",
+        title: "Tábua de passar",
+        image: "images/tabua.jpg",
+        description: "Tábua de passar roupa grande Members Mark. Alguns pontos de oxidação.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20tábua."
       },
       {
         category: "doacoes",
@@ -319,8 +410,22 @@ const products = [
         category: "doacoes",
         title: "Organizadores Metálicos",
         image: "images/metais.jpg",
-        description: "Organizadores metálicos Para armários.",
+        description: "Organizadores metálicos para armários.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20organizadores."
+      },
+      {
+        category: "doacoes",
+        title: "Porta-rolos cromado",
+        image: "images/portarolo.jpg",
+        description: "Suporte para talheres e porta-rolos cromado com 1 barra e alguns ganchos. Tem pontinhos de ferrugem.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20porta-rolos."
+      },
+      {
+        category: "doacoes",
+        title: "Bowl de aço inox",
+        image: "images/bowl.jpg",
+        description: "Pote Tramontina Freezinox Redondo Aço Inox Acabamento Fosco sem Tampa 20cm 2,2L. Cansado, arranhadinho, mas é ótimo.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bowl."
       },
       {
         category: "doacoes",
@@ -336,6 +441,34 @@ const products = [
         description: "Conjunto de facas 6 peças Tramontina - a tesoura tá bem ruim, mas o resto tá ok.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20facas."
       },
+      {
+        category: "doacoes",
+        title: "Secador de Cabelos",
+        image: "images/secador.jpg",
+        description: "Secador de Cabelo Gama Lumina Nano Tourmaline 2200W Prata e Rosa. Faltando bicos",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20secador."
+      },
+      {
+        category: "doacoes",
+        title: "Caixa de transporte de Luna <3",
+        image: "images/casinha.jpg",
+        description: "Caixa de transporte para pet azul | grande.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20caixinha%20pet."
+      },
+      {
+        category: "doacoes",
+        title: "Portãozinho Pet",
+        image: "images/portão.jpg",
+        description: "Grade para Porta - Portãozinho Pet em Aço Branco. Duas unidades bem desgastadas.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20caixinha%20pet."
+      },
+      {
+        category: "doacoes",
+        title: "Vitrola",
+        image: "images/vitrola.jpg",
+        description: "Crosley CR8005D-BL Cruiser Deluxe Vintage 3-Speed Bluetooth Suitcase Vinyl Record Player Turntable, Blue. Muito enferrujada.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20vitrola."
+      }
     // ... more products
   ];
   
