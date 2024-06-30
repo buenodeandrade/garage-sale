@@ -220,7 +220,7 @@ const products = [
       {
         category: "eletro",
         title: "Lava e Seca",
-        image: "images/lavaaeseca.jpg",
+        image: "images/lavaeseca.jpg",
         description: "Lava e Seca LG 8,5KG Direct Drive.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Lava%20e%20Seca."
       },
