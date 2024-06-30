@@ -9,6 +9,13 @@ const products = [
       },
       {
         category: "cozinha",
+        title: "Fogão",
+        image: "images/fogao.jpg",
+        description: "Fogão 4 Bocas Electrolux 56SB - Acendimento Automático Branco.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20fogão."
+      },
+      {
+        category: "cozinha",
         title: "Maquininha de espresso",
         image: "images/cafeteira.jpg",
         description: "Cafeteira Espresso Passione Preta Automática - TRES 3 Corações.",
@@ -37,13 +44,6 @@ const products = [
       },
       {
         category: "cozinha",
-        title: "Liquidificador",
-        image: "images/liquidificador.jpg",
-        description: "Liquidificador Arno Faciclic Top Tampa Mod. Ln32 Preto. Cansado e o copinho tá quebrado, mas tem na shopee. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20liquidificador."
-      },
-      {
-        category: "cozinha",
         title: "Batedeira Planetária",
         image: "images/batedeira.jpg",
         description: "Batedeira Planetária Philco PHP500P Turbo 700W. ",
@@ -55,6 +55,13 @@ const products = [
         image: "images/panelaeletrica.jpg",
         description: "Panela de Pressão Elétrica 6L EOS Multicooker Digital Titanium EPP60DT 220V. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20panela%20elétrica."
+      },
+      {
+        category: "cozinha",
+        title: "Filtro",
+        image: "images/gelagua.jpg",
+        description: "Purificador de Água Electrolux PE10X Bivolt Prata com Painel Easy Touch e 3 Temperaturas. Não está gelando",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20filtro."
       },
       {
         category: "cozinha",
@@ -72,6 +79,20 @@ const products = [
       },
       {
         category: "cozinha",
+        title: "Bules Térmicos",
+        image: "images/termicas.jpg",
+        description: "Garrafa Térmica Invicta Vogue 750ml Verde e outra menorzinha cinza.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20térmicas."
+      },
+      {
+        category: "cozinha",
+        title: "Panelas",
+        image: "images/panelas.jpg",
+        description: "Kirkland Signature (Costco) Hard Anodized Cookware.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20panelas."
+      },
+      {
+        category: "cozinha",
         title: "Aparelho de jantar",
         image: "images/pratoscorona.jpg",
         description: "Aparelho de jantar de cerâmica Elisa Corona 20 peças (originalmente, pq quebramos 2 fundos e 1 grande). ",
@@ -83,6 +104,13 @@ const products = [
         image: "images/fontignac.jpg",
         description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açucar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário."
+      },
+      {
+        category: "cozinha",
+        title: "Talheres",
+        image: "images/talheres.jpg",
+        description: "Jogo Talher Madrid Aco Inox 20 peças da saudosa Etna.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres."
       },
       {
         category: "moveis",
@@ -156,10 +184,45 @@ const products = [
       },
       {
         category: "eletro",
-        title: "Aspirador De Pó Robô",
+        title: "Lâmpada RGB Inteligente",
+        image: "images/lampada.jpg",
+        description: "Lâmpada Inteligente (2 unidadeds) I2go Wi-fi 10w Rgb Alexa E Google Cor da luz RGB e Branco.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20lâmpada."
+      },
+      {
+        category: "eletro",
+        title: "Controle Universal",
+        image: "images/controleuniversal.jpg",
+        description: "Controle Universal Inteligente Infravermelho I2GO Home - Compatível com Alexa.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20controle."
+      },
+      {
+        category: "eletro",
+        title: "TV 32''",
+        image: "images/tvlg.jpg",
+        description: "Smart TV LED 32'' HD LG 32LQ621CBSB. Wi-Fi não tá funcionando.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV."
+      },
+      {
+        category: "eletro",
+        title: "Aspirador de Pó Robô",
         image: "images/robo.jpg",
-        description: "Aspirador De Pó Robô Multilaser HO041 - Bivolt",
+        description: "Aspirador De Pó Robô Multilaser HO041 - Bivolt.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador%20robô."
+      },
+      {
+        category: "eletro",
+        title: "Aspirador de Pó",
+        image: "images/aspirador.jpg",
+        description: "Aspirador De Pó e Água Electrolux Acqua Power AQP20.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador."
+      },
+      {
+        category: "eletro",
+        title: "Lava e Seca",
+        image: "images/lavaaeseca.jpg",
+        description: "Lava e Seca LG 8,5KG Direct Drive.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Lava%20e%20Seca."
       },
       {
         category: "diversos",
@@ -191,10 +254,24 @@ const products = [
       },
       {
         category: "diversos",
+        title: "Mop",
+        image: "images/mop.jpg",
+        description: "Esfregão Mop Twister Bt 1902 Noviça 6 Litros - Bettanin - Cinza / Verde.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mop."
+      },
+      {
+        category: "diversos",
         title: "Painel Mural Magnetico",
         image: "images/painelmetal.jpg",
         description: "Painel de Metal para fotos/recados Magnetico 60 X 90. Algumas marcas de uso, mas bem conservado.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20painel."
+      },
+      {
+        category: "diversos",
+        title: "Molduras",
+        image: "images/molduras.jpg",
+        description: "Molduras da Tok&Stok de diversas cores e tamanhos: A4, A3, carta, quadrado...",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20molduras."
       },
       {
         category: "doacoes",
@@ -202,6 +279,13 @@ const products = [
         image: "images/copos.jpg",
         description: "Jogo Copos Lights Long Drink 410ml 5 (é, também quebrou um) Peças Nadir.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20copos."
+      },
+      {
+        category: "doacoes",
+        title: "Liquidificador",
+        image: "images/liquidificador.jpg",
+        description: "Liquidificador Arno Faciclic Top Tampa Mod. Ln32 Preto. Cansado e o copinho tá quebrado, mas tem na shopee. ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20liquidificador."
       },
       {
         category: "doacoes",
@@ -230,6 +314,13 @@ const products = [
         image: "images/tigelas.jpg",
         description: "Jogo de Tigelas de Vidro (3 Peças).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20tigelas."
+      },
+      {
+        category: "doacoes",
+        title: "Organizadores Metálicos",
+        image: "images/metais.jpg",
+        description: "Organizadores metálicos Para armários.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20organizadores."
       },
       {
         category: "doacoes",
