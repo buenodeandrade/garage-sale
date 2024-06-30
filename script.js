@@ -22,6 +22,62 @@ const products = [
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20stanley."
       },
       {
+        category: "cozinha",
+        title: "Fritadeira Elétrica Cadence",
+        image: "images/airfry.jpg",
+        description: "Fritadeira Elétrica sem Óleo Cadence 2.3L Perfect Fryer FRT531 com Timer Preta. Tá castigada, um botão faltando que dá pra comprar na web.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20airfryer."
+      },
+      {
+        category: "cozinha",
+        title: "Mixer com utensílios",
+        image: "images/mixer.jpg",
+        description: "Mixer com Copo 400W 220V RI1366/04 Preto PHILIPS WALITA.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mixer."
+      },
+      {
+        category: "cozinha",
+        title: "Liquidificador",
+        image: "images/liquidificador.jpg",
+        description: "Liquidificador Arno Faciclic Top Tampa Mod. Ln32 Preto. Cansado e o copinho tá quebrado, mas tem na shopee. ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20liquidificador."
+      },
+      {
+        category: "cozinha",
+        title: "Batedeira Planetária",
+        image: "images/batedeira.jpg",
+        description: "Batedeira Planetária Philco PHP500P Turbo 700W. ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20batedeira."
+      },
+      {
+        category: "cozinha",
+        title: "Panela de Pressão Elétrica",
+        image: "images/panelaeletrica.jpg",
+        description: "Panela de Pressão Elétrica 6L EOS Multicooker Digital Titanium EPP60DT 220V. ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20panela%20elétrica."
+      },
+      {
+        category: "cozinha",
+        title: "Taça pras visitas",
+        image: "images/tacaazul.jpg",
+        description: "Jogo de Taças de Vidro 330ml 11 Peças (uma quebrou, mas ainda serve um time) Haus - Bico de Jaca Empire. ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20taças%20azuis."
+      },
+      {
+        category: "cozinha",
+        title: "Garrafas Térmicas",
+        image: "images/garrafas.jpg",
+        description: "Garrafas Térmicas de Inox Takeya 24 ThermoFlask. Algumas marquinhas de uso, mas boas. ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20garrafas."
+      },
+      {
+        category: "cozinha",
+        title: "Aparelho de jantar",
+        image: "images/pratoscorona.jpg",
+        description: "Aparelho de jantar de cerâmica Elisa Corona 20 peças (originalmente, pq quebramos 2 fundos e 1 grande). ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20bonitinhos."
+      },
+      {
         category: "moveis",
         title: "Cadeiras (4 un)",
         image: "images/cadeira.jpg",
@@ -132,6 +188,27 @@ const products = [
         image: "images/painelmetal.jpg",
         description: "Painel de Metal para fotos/recados Magnetico 60 X 90. Algumas marcas de uso, mas bem conservado.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20painel."
+      },
+      {
+        category: "doacoes",
+        title: "Copos simples",
+        image: "images/copos.jpg",
+        description: "Jogo Copos Lights Long Drink 410ml 5 (é, também quebrou um) Peças Nadir.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20copos."
+      },
+      {
+        category: "doacoes",
+        title: "Um monte de tapaué",
+        image: "images/tapaue.jpg",
+        description: "Tem desse da foto, tem grande, tem diferente, tem de outras marcas, cores, etc...",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20tapaué."
+      },
+      {
+        category: "doacoes",
+        title: "Pratos brancos",
+        image: "images/pratosbrancos.jpg",
+        description: "Aqueles do cotidiano mesmo, tem 2 fundos, 2 de sobremesa e 4 grandes (ainda tem 1 maior ainda, diferente de todos, que compramos errado).",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20brancos."
       },
     // ... more products
   ];
