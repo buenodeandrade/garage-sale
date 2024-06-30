@@ -78,6 +78,13 @@ const products = [
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20bonitinhos."
       },
       {
+        category: "cozinha",
+        title: "Refratário Redondo",
+        image: "images/fontignac.jpg",
+        description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açucar.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário."
+      },
+      {
         category: "moveis",
         title: "Cadeiras (4 un)",
         image: "images/cadeira.jpg",
@@ -209,6 +216,34 @@ const products = [
         image: "images/pratosbrancos.jpg",
         description: "Aqueles do cotidiano mesmo, tem 2 fundos, 2 de sobremesa e 4 grandes (ainda tem 1 maior ainda, diferente de todos, que compramos errado).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20brancos."
+      },
+      {
+        category: "doacoes",
+        title: "Marinex retangular e redondo",
+        image: "images/marinex.jpg",
+        description: "Duas assadeira retangulares 2,2L Média Marinex e um redondo, creio que 2,4L.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20marinex."
+      },
+      {
+        category: "doacoes",
+        title: "Jogo de Tigelas",
+        image: "images/tigelas.jpg",
+        description: "Jogo de Tigelas de Vidro (3 Peças).",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20tigelas."
+      },
+      {
+        category: "doacoes",
+        title: "Bloco para facas",
+        image: "images/portafacas.jpg",
+        description: "Cepo De Facas Jamie Oliver - outro artigo dos famigerados selinhos do pão de açúcar.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bloco%20de%20facas."
+      },
+      {
+        category: "doacoes",
+        title: "Conjunto de facas",
+        image: "images/facasverdes.jpg",
+        description: "Conjunto de facas 6 peças Tramontina - a tesoura tá bem ruim, mas o resto tá ok.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20facas."
       },
     // ... more products
   ];
