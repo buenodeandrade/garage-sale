@@ -445,7 +445,7 @@ const products = [
         category: "doacoes",
         title: "Secador de Cabelos",
         image: "images/secador.jpg",
-        description: "Secador de Cabelo Gama Lumina Nano Tourmaline 2200W Prata e Rosa. Faltando bicos",
+        description: "Secador de Cabelo Gama Lumina Nano Tourmaline 2200W Prata e Rosa. Faltando bicos e tampa traseira.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20secador."
       },
       {
@@ -458,7 +458,7 @@ const products = [
       {
         category: "doacoes",
         title: "Portãozinho Pet",
-        image: "images/portão.jpg",
+        image: "images/portao.jpg",
         description: "Grade para Porta - Portãozinho Pet em Aço Branco. Duas unidades bem desgastadas.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20caixinha%20pet."
       },
