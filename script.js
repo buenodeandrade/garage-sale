@@ -19,7 +19,7 @@ const products = [
         image: "images/cafeteira.jpg",
         description: "Cafeteira Espresso Passione Preta Automática - TRES 3 Corações.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20cafeteira.",
-        price: "290"
+        price: "R$ 290"
       },
       {
         category: "cozinha",
@@ -27,7 +27,7 @@ const products = [
         image: "images/stanley.jpg",
         description: "Stanley Caneca de cerveja clássica com abridor de garrafa, caneca e copo isolado de 680 ml, Hammertone Green.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20stanley.",
-        price: "190"
+        price: "R$ 190"
       },
       /*{
         category: "cozinha",
@@ -84,7 +84,7 @@ const products = [
         image: "images/garrafas.jpg",
         description: "Garrafas Térmicas de Inox Takeya 24 ThermoFlask. Algumas marquinhas de uso, mas boas. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20garrafas.",
-        price: "100"
+        price: "R$ 100"
       },
       {
         category: "cozinha",
@@ -92,7 +92,7 @@ const products = [
         image: "images/termicas.jpg",
         description: "Garrafa Térmica Invicta Vogue 750ml Verde e outra menorzinha cinza.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20térmicas.",
-        price: "20"
+        price: "R$ 20"
       },
       /*{
         category: "cozinha",
@@ -114,7 +114,7 @@ const products = [
         image: "images/leiteira.jpg",
         description: "Leiteira antiaderente preta simples 2,4l.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20leiteira.",
-        price: "15"
+        price: "R$ 15"
       },
       /*{
         category: "cozinha",
@@ -129,7 +129,7 @@ const products = [
         image: "images/fontignac.jpg",
         description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açúcar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
-        price: "120"
+        price: "R$ 120"
       },
       {
         category: "cozinha",
@@ -137,7 +137,7 @@ const products = [
         image: "images/ramekin.jpg",
         description: "Conjunto de 4 ramequins de porcelana com texturas.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20ramequins.",
-        price: "15"
+        price: "R$ 15"
       },
       {
         category: "cozinha",
@@ -145,7 +145,7 @@ const products = [
         image: "images/petisqueira.jpg",
         description: "Petisqueira de madeira quadrada com 4 potes de porcelana.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20petisqueira.",
-        price: "30"
+        price: "R$ 30"
       },
       {
         category: "cozinha",
@@ -153,7 +153,7 @@ const products = [
         image: "images/steamer.jpg",
         description: "Vaporeira Fontignac (steamer) 24 Cm - mais uma dos selinhos do pão de açúcar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
-        price: "120"
+        price: "R$ 120"
       },
       {
         category: "cozinha",
@@ -161,7 +161,7 @@ const products = [
         image: "images/formaremovivel.jpg",
         description: "Forma Assadeira Redonda Com Fundo Removível - é essa, mas azul claro.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20fundo%20removível.",
-        price: "30"
+        price: "R$ 30"
       },
       /*{
         category: "cozinha",
@@ -176,7 +176,7 @@ const products = [
         image: "images/talheres.jpg",
         description: "Jogo Talher Madrid Aco Inox 20 peças da saudosa Etna.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres.",
-        price: "50"
+        price: "R$ 50"
       },
       /*{
         category: "cozinha",
@@ -191,7 +191,7 @@ const products = [
         image: "images/sobremesa.jpg",
         description: "Conjunto de sobremesa de vidro floral com 7 peças que lembra casa de vó.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20sobremesa.",
-        price: "30"
+        price: "R$ 30"
       },
       {
         category: "cozinha",
@@ -199,7 +199,7 @@ const products = [
         image: "images/boleirap.jpg",
         description: "Boleira Pequena Com Pé Cristal Bolinha 20cm Wolff Pearl.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20pequena.",
-        price: "25"
+        price: "R$ 25"
       },
       {
         category: "cozinha",
@@ -207,7 +207,7 @@ const products = [
         image: "images/boleirag.jpg",
         description: "Boleira de vidro para bolo com pé.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20grande.",
-        price: "40"
+        price: "R$ 40"
       },
       /*{
         category: "cozinha",
@@ -229,7 +229,7 @@ const products = [
         image: "images/sofa.jpg",
         description: "Sofá três (ou quatro) lugares em estrutura metálica. Cansado e tá sujinho, mas estrutura muito boa e depois de uma lavadinha fica mais bonito.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20sofá.",
-        price: "1300"
+        price: "R$ 1.300"
       },
       /*{
         category: "moveis",
@@ -279,7 +279,7 @@ const products = [
         image: "images/monitor.jpg",
         description: "Monitor LG UltraGear 24GN600-24'' IPS Full HD, 144Hz, 1ms (GtG), AMD FreeSync, Ajuste de Inclinação.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20monitor.",
-        price: "550"
+        price: "R$ 550"
       },
       {
         category: "eletro",
@@ -287,7 +287,7 @@ const products = [
         image: "images/alexa5.jpg",
         description: "Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado | Azul.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20azul.",
-        price: "220"
+        price: "R$ 220"
       },
       /*{
         category: "eletro",
@@ -302,7 +302,7 @@ const products = [
         image: "images/lampada.jpg",
         description: "Lâmpada Inteligente (2 unidadeds) I2go Wi-fi 10w Rgb Alexa E Google Cor da luz RGB e Branco.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20lâmpada.",
-        price: "40"
+        price: "R$ 40"
       },
       {
         category: "eletro",
@@ -310,7 +310,7 @@ const products = [
         image: "images/controleuniversal.jpg",
         description: "Controle Universal Inteligente Infravermelho I2GO Home - Compatível com Alexa.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20controle.",
-        price: "50"
+        price: "R$ 50"
       },
       {
         category: "eletro",
@@ -318,7 +318,7 @@ const products = [
         image: "images/atari.jpg",
         description: "Atari Flashback com controles sem fio (o fio tá com uma emenda, mas funcionando, padrão VGA).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Atari.",
-        price: "300"
+        price: "R$ 300"
       },
       /*{
         category: "eletro",
@@ -340,7 +340,7 @@ const products = [
         image: "images/robo.jpg",
         description: "Aspirador De Pó Robô Multilaser HO041 - Bivolt.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador%20robô.",
-        price: "170"
+        price: "R$ 170"
       },
       /*{
         category: "eletro",
@@ -362,7 +362,7 @@ const products = [
         image: "images/carro.jpg",
         description: "Nissan Kicks 1.6 SV CVT (Flex) 2018. Pack plus (banco de couro e seis airbags frontais e laterais). ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20carro.",
-        price: "80k"
+        price: "R$ 80k"
       },
       {
         category: "diversos",
@@ -370,7 +370,7 @@ const products = [
         image: "images/violao.jpg",
         description: "Violão Tagima Woodstock Acoustic TW-27 Grand Auditorium. Algumas marquinhas de oxidação. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20violão.",
-        price: "400"
+        price: "R$ 400"
       },
       {
         category: "diversos",
@@ -378,7 +378,7 @@ const products = [
         image: "images/chapinha.jpg",
         description: "Mini Chapinha De Bolsa Portátil De Cabelo Bivolt Prancha.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chapinha.",
-        price: "20"
+        price: "R$ 20"
       },
       /*{
         category: "diversos",
@@ -393,7 +393,7 @@ const products = [
         image: "images/lixeiras.jpg",
         description: "Lixeiras em Inox Round Com Cesto Removível - Members Mark. Algumas marquinhas de oxidação. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20lixeiras.",
-        price: "30, 40 e 80"
+        price: "R$ 30, 40 e 80"
       },
       {
         category: "diversos",
@@ -401,7 +401,7 @@ const products = [
         image: "images/mop.jpg",
         description: "Esfregão Mop Twister Bt 1902 Noviça 6 Litros - Bettanin - Cinza / Verde.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mop.",
-        price: "70"
+        price: "R$ 70"
       },
       /*{
         category: "diversos",
@@ -424,7 +424,7 @@ const products = [
         image: "images/ferro.jpg",
         description: "Ferro de Passar a Seco Black + Decker VFA Eco - Preto - Ferro de Passar a Seco.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20ferro.",
-        price: "70"
+        price: "R$ 70"
       },
       /*{
         category: "diversos",
@@ -537,7 +537,7 @@ const products = [
         image: "images/comedouro.jpg",
         description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático.",
-        price: "200"
+        price: "R$ 200"
       },
       /*{
         category: "doacoes",
@@ -560,7 +560,7 @@ const products = [
       productItem.innerHTML = `
         <img src="${product.image}" alt="${product.title}">
         <h3>${product.title}</h3>
-        <h2>${product.price}</h2>
+        <h4>${product.price}</h4>
         <p>${product.description}</p>
       `;
       productItem.addEventListener('click', () => {
@@ -575,6 +575,7 @@ const products = [
     const popup = document.getElementById('productPopup');
     document.getElementById('popupImage').src = product.image;
     document.getElementById('popupTitle').textContent = product.title;
+    document.getElementById('popupPrice').textContent = product.price;
     document.getElementById('popupDescription').textContent = product.description;
     document.getElementById('popupWhatsapp').href = product.whatsappLink;
     popup.style.display = 'block'; // Show popup

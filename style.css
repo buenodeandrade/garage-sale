@@ -20,6 +20,11 @@ body {
     color: #003a70;
     text-align: center;
    }
+
+   h4 {
+    color: #b22222;
+    text-align: center;
+   }
   
   nav ul {
     list-style: none;
