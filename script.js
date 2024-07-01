@@ -183,6 +183,13 @@ const products = [
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20grande."
       },
       {
+        category: "cozinha",
+        title: "Porta-mantimentos",
+        image: "images/potesvidro.jpg",
+        description: "Conjunto 3 Porta-mantimentos Redondo de Vidro com Tampa de Aço 1,7L/1,3L/880ml - Wolff.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20porta-mantimentos."
+      },
+      {
         category: "moveis",
         title: "Cadeiras (4 un)",
         image: "images/cadeira.jpg",
