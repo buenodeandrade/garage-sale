@@ -155,7 +155,7 @@ const products = [
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres."
       },
       {
-        category: "doacoes",
+        category: "cozinha",
         title: "Faca lacrada",
         image: "images/facaathus.jpg",
         description: "Faca para carne 8 polegadas Tramontina Athus. Nunca abrimos.",
