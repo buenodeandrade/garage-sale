@@ -331,6 +331,13 @@ const products = [
       },
       {
         category: "diversos",
+        title: "Mini-chapinha",
+        image: "images/chapinha.jpg",
+        description: "Mini Chapinha De Bolsa Portátil De Cabelo Bivolt Prancha.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chapinha."
+      },
+      {
+        category: "diversos",
         title: "Colchão Emma",
         image: "images/colchao.jpg",
         description: "Colchão Queen Emma Duo Comfort - 10 anos de garantia, conforto ortopédico dupla face - 158x198cm. Temos uma base box Ortobom antiguinha que pode ir de brinde.",
