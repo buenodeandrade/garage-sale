@@ -18,14 +18,16 @@ const products = [
         title: "Maquininha de espresso",
         image: "images/cafeteira.jpg",
         description: "Cafeteira Espresso Passione Preta Automática - TRES 3 Corações.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20cafeteira."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20cafeteira.",
+        price: "290"
       },
       {
         category: "cozinha",
         title: "Caneca Stanley",
         image: "images/stanley.jpg",
         description: "Stanley Caneca de cerveja clássica com abridor de garrafa, caneca e copo isolado de 680 ml, Hammertone Green.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20stanley."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20stanley.",
+        price: "190"
       },
       /*{
         category: "cozinha",
@@ -81,14 +83,16 @@ const products = [
         title: "Garrafas Térmicas",
         image: "images/garrafas.jpg",
         description: "Garrafas Térmicas de Inox Takeya 24 ThermoFlask. Algumas marquinhas de uso, mas boas. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20garrafas."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20garrafas.",
+        price: "100"
       },
       {
         category: "cozinha",
         title: "Bules Térmicos",
         image: "images/termicas.jpg",
         description: "Garrafa Térmica Invicta Vogue 750ml Verde e outra menorzinha cinza.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20térmicas."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20térmicas.",
+        price: "20"
       },
       /*{
         category: "cozinha",
@@ -109,7 +113,8 @@ const products = [
         title: "Leiteira",
         image: "images/leiteira.jpg",
         description: "Leiteira antiaderente preta simples 2,4l.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20leiteira."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20leiteira.",
+        price: "15"
       },
       /*{
         category: "cozinha",
@@ -123,35 +128,40 @@ const products = [
         title: "Refratário Redondo",
         image: "images/fontignac.jpg",
         description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açúcar.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
+        price: "120"
       },
       {
         category: "cozinha",
         title: "Ramequins",
         image: "images/ramekin.jpg",
         description: "Conjunto de 4 ramequins de porcelana com texturas.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20ramequins."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20ramequins.",
+        price: "15"
       },
       {
         category: "cozinha",
         title: "Petisqueirinha",
         image: "images/petisqueira.jpg",
         description: "Petisqueira de madeira quadrada com 4 potes de porcelana.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20petisqueira."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20petisqueira.",
+        price: "30"
       },
       {
         category: "cozinha",
         title: "Vaporeira (steamer)",
         image: "images/steamer.jpg",
         description: "Vaporeira Fontignac (steamer) 24 Cm - mais uma dos selinhos do pão de açúcar.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
+        price: "120"
       },
       {
         category: "cozinha",
         title: "Forma com Fundo Removível",
         image: "images/formaremovivel.jpg",
         description: "Forma Assadeira Redonda Com Fundo Removível - é essa, mas azul claro.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20fundo%20removível."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20fundo%20removível.",
+        price: "30"
       },
       /*{
         category: "cozinha",
@@ -165,7 +175,8 @@ const products = [
         title: "Talheres",
         image: "images/talheres.jpg",
         description: "Jogo Talher Madrid Aco Inox 20 peças da saudosa Etna.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres.",
+        price: "50"
       },
       /*{
         category: "cozinha",
@@ -179,21 +190,24 @@ const products = [
         title: "Conjunto de sobremesa",
         image: "images/sobremesa.jpg",
         description: "Conjunto de sobremesa de vidro floral com 7 peças que lembra casa de vó.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20sobremesa."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20sobremesa.",
+        price: "30"
       },
       {
         category: "cozinha",
         title: "Boleira Pequena",
         image: "images/boleirap.jpg",
         description: "Boleira Pequena Com Pé Cristal Bolinha 20cm Wolff Pearl.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20pequena."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20pequena.",
+        price: "25"
       },
       {
         category: "cozinha",
         title: "Boleira Grande",
         image: "images/boleirag.jpg",
         description: "Boleira de vidro para bolo com pé.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20grande."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20grande.",
+        price: "40"
       },
       /*{
         category: "cozinha",
@@ -214,7 +228,8 @@ const products = [
         title: "Sofá - 2,20m",
         image: "images/sofa.jpg",
         description: "Sofá três (ou quatro) lugares em estrutura metálica. Cansado e tá sujinho, mas estrutura muito boa e depois de uma lavadinha fica mais bonito.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20sofá."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20sofá.",
+        price: "1300"
       },
       /*{
         category: "moveis",
@@ -263,14 +278,16 @@ const products = [
         title: "Monitor 24'' 144hz",
         image: "images/monitor.jpg",
         description: "Monitor LG UltraGear 24GN600-24'' IPS Full HD, 144Hz, 1ms (GtG), AMD FreeSync, Ajuste de Inclinação.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20monitor."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20monitor.",
+        price: "550"
       },
       {
         category: "eletro",
         title: "Echo Dot 5ª geração",
         image: "images/alexa5.jpg",
         description: "Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado | Azul.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20azul."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20azul.",
+        price: "220"
       },
       /*{
         category: "eletro",
@@ -284,21 +301,24 @@ const products = [
         title: "Lâmpada RGB Inteligente",
         image: "images/lampada.jpg",
         description: "Lâmpada Inteligente (2 unidadeds) I2go Wi-fi 10w Rgb Alexa E Google Cor da luz RGB e Branco.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20lâmpada."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20lâmpada.",
+        price: "40"
       },
       {
         category: "eletro",
         title: "Controle Universal",
         image: "images/controleuniversal.jpg",
         description: "Controle Universal Inteligente Infravermelho I2GO Home - Compatível com Alexa.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20controle."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20controle.",
+        price: "50"
       },
       {
         category: "eletro",
         title: "Atari",
         image: "images/atari.jpg",
         description: "Atari Flashback com controles sem fio (o fio tá com uma emenda, mas funcionando, padrão VGA).",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Atari."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Atari.",
+        price: "300"
       },
       /*{
         category: "eletro",
@@ -319,7 +339,8 @@ const products = [
         title: "Aspirador de Pó Robô",
         image: "images/robo.jpg",
         description: "Aspirador De Pó Robô Multilaser HO041 - Bivolt.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador%20robô."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador%20robô.",
+        price: "170"
       },
       /*{
         category: "eletro",
@@ -340,21 +361,24 @@ const products = [
         title: "Nissan Kicks 2018",
         image: "images/carro.jpg",
         description: "Nissan Kicks 1.6 SV CVT (Flex) 2018. Pack plus (banco de couro e seis airbags frontais e laterais). ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20carro."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20carro.",
+        price: "80k"
       },
       {
         category: "diversos",
         title: "Violão",
         image: "images/violao.jpg",
         description: "Violão Tagima Woodstock Acoustic TW-27 Grand Auditorium. Algumas marquinhas de oxidação. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20violão."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20violão.",
+        price: "400"
       },
       {
         category: "diversos",
         title: "Mini-chapinha",
         image: "images/chapinha.jpg",
         description: "Mini Chapinha De Bolsa Portátil De Cabelo Bivolt Prancha.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chapinha."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chapinha.",
+        price: "20"
       },
       /*{
         category: "diversos",
@@ -368,14 +392,16 @@ const products = [
         title: "Lixeiras 3, 5 e 30 litros",
         image: "images/lixeiras.jpg",
         description: "Lixeiras em Inox Round Com Cesto Removível - Members Mark. Algumas marquinhas de oxidação. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20lixeiras."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20lixeiras.",
+        price: "30, 40 e 80"
       },
       {
         category: "diversos",
         title: "Mop",
         image: "images/mop.jpg",
         description: "Esfregão Mop Twister Bt 1902 Noviça 6 Litros - Bettanin - Cinza / Verde.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mop."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mop.",
+        price: "70"
       },
       /*{
         category: "diversos",
@@ -389,14 +415,16 @@ const products = [
         title: "Molduras",
         image: "images/molduras.jpg",
         description: "Molduras da Tok&Stok de diversas cores e tamanhos: A4, A3, carta, quadrado...",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20molduras."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20molduras.",
+        price: "Aí vareia"
       },
       {
         category: "diversos",
         title: "Ferro de passar",
         image: "images/ferro.jpg",
         description: "Ferro de Passar a Seco Black + Decker VFA Eco - Preto - Ferro de Passar a Seco.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20ferro."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20ferro.",
+        price: "70"
       },
       /*{
         category: "diversos",
@@ -508,7 +536,8 @@ const products = [
         title: "Comedouro Automático",
         image: "images/comedouro.jpg",
         description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático.",
+        price: "200"
       },
       /*{
         category: "doacoes",
@@ -531,6 +560,7 @@ const products = [
       productItem.innerHTML = `
         <img src="${product.image}" alt="${product.title}">
         <h3>${product.title}</h3>
+        <h2>${product.price}</h2>
         <p>${product.description}</p>
       `;
       productItem.addEventListener('click', () => {
