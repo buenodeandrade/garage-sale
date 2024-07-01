@@ -470,6 +470,13 @@ const products = [
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20caixinha%20pet."
       },
       {
+        category: "diversos",
+        title: "Comedouro Automático",
+        image: "images/comedouro.jpg",
+        description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático."
+      },
+      {
         category: "doacoes",
         title: "Vitrola",
         image: "images/vitrola.jpg",
