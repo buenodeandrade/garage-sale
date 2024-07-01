@@ -438,7 +438,8 @@ const products = [
         title: "Copos simples",
         image: "images/copos.jpg",
         description: "Jogo Copos Lights Long Drink 410ml 5 (é, também quebrou um) Peças Nadir.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20copos."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20copos.",
+        price: "nadinha, vê mermo"
       },
       /*{
         category: "doacoes",
@@ -452,28 +453,32 @@ const products = [
         title: "Um monte de tapaué",
         image: "images/tapaue.jpg",
         description: "Tem desse da foto, tem grande, tem diferente, tem de outras marcas, cores, etc...",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20tapaué."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20tapaué.",
+        price: "nadinha, vê mermo"
       },
       {
         category: "doacoes",
         title: "Pratos brancos",
         image: "images/pratosbrancos.jpg",
         description: "Aqueles do cotidiano mesmo, tem 2 fundos, 4 de sobremesa e 4 grandes (ainda tem 1 maior ainda, diferente de todos, que compramos errado).",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20brancos."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20brancos.",
+        price: "nadinha, vê mermo"
       },
       {
         category: "doacoes",
         title: "Marinex retangular e redondo",
         image: "images/marinex.jpg",
         description: "Duas assadeira retangulares 2,2L Média Marinex e um redondo, creio que 2,4L.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20marinex."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20marinex.",
+        price: "nadinha, vê mermo"
       },
       {
         category: "doacoes",
         title: "Jogo de Tigelas",
         image: "images/tigelas.jpg",
         description: "Jogo de Tigelas de Vidro (3 Peças).",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20tigelas."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20tigelas.",
+        price: "nadinha, vê mermo"
       },
       /*{
         category: "doacoes",
@@ -494,7 +499,8 @@ const products = [
         title: "Bowl de aço inox",
         image: "images/bowl.jpg",
         description: "Pote Tramontina Freezinox Redondo Aço Inox Acabamento Fosco sem Tampa 20cm 2,2L. Cansado, arranhadinho, mas é ótimo.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bowl."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bowl.",
+        price: "nadinha, vê mermo"
       },
       /*{
         category: "doacoes",
@@ -508,7 +514,8 @@ const products = [
         title: "Conjunto de facas",
         image: "images/facasverdes.jpg",
         description: "Conjunto de facas 6 peças Tramontina - a tesoura tá bem ruim, mas o resto tá ok.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20facas."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20facas.",
+        price: "nadinha, vê mermo"
       },
       /*{
         category: "doacoes",
