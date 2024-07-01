@@ -1,4 +1,3 @@
-// Sample Product Data (replace with your actual data)
 const products = [
     {
         category: "cozinha",
@@ -49,20 +48,20 @@ const products = [
         description: "Batedeira Planetária Philco PHP500P Turbo 700W. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20batedeira."
       },*/
-      {
+      /*{
         category: "cozinha",
         title: "Panela de Pressão Elétrica",
         image: "images/panelaeletrica.jpg",
         description: "Panela de Pressão Elétrica 6L EOS Multicooker Digital Titanium EPP60DT 220V. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20panela%20elétrica."
-      },
-      {
+      },*/
+      /*{
         category: "cozinha",
         title: "Filtro",
         image: "images/gelagua.jpg",
         description: "Purificador de Água Electrolux PE10X Bivolt Prata com Painel Easy Touch e 3 Temperaturas. Não está gelando",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20filtro."
-      },
+      },*/
       {
         category: "cozinha",
         title: "Taça pras visitas",
@@ -128,6 +127,20 @@ const products = [
       },
       {
         category: "cozinha",
+        title: "Ramequins",
+        image: "images/ramekin.jpg",
+        description: "Conjunto de 4 ramequins de porcelana com texturas.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20ramequins."
+      },
+      {
+        category: "cozinha",
+        title: "Petisqueirinha",
+        image: "images/petisqueira.jpg",
+        description: "Petisqueira de madeira quadrada com 4 potes de porcelana.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20petisqueira."
+      },
+      {
+        category: "cozinha",
         title: "Vaporeira (steamer)",
         image: "images/steamer.jpg",
         description: "Vaporeira Fontignac (steamer) 24 Cm - mais uma dos selinhos do pão de açúcar.",
@@ -182,19 +195,26 @@ const products = [
         description: "Boleira de vidro para bolo com pé.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20grande."
       },
-      {
+      /*{
         category: "cozinha",
         title: "Porta-mantimentos",
         image: "images/potesvidro.jpg",
         description: "Conjunto 3 Porta-mantimentos Redondo de Vidro com Tampa de Aço 1,7L/1,3L/880ml - Wolff.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20porta-mantimentos."
-      },
-      {
+      },*/
+      /*{
         category: "moveis",
         title: "Cadeiras (4 un)",
         image: "images/cadeira.jpg",
         description: "Quatro cadeiras Madri em madeira ded demolição, uma tem um conserto pequeno na parte de baixo do assento, imperceptível. :)",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20cadeiras."
+      },*/
+      {
+        category: "moveis",
+        title: "Sofá - 2,20m",
+        image: "images/banco.jpg",
+        description: "Sofá três (ou quatro) lugares em estrutura metálica. Cansado e tá sujinho, mas estrutura muito boa e depois de uma lavadinha fica mais bonito.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20sofá."
       },
       {
         category: "moveis",
@@ -203,13 +223,13 @@ const products = [
         description: "Conjunto 4 Banquetas Baixas Piratini 160 em Madeira Maciça Mel.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20bancos."
       },
-      {
+      /*{
         category: "moveis",
         title: "Banco ripado",
         image: "images/bancoripado.jpg",
         description: "Banco Ripado em Madeira de Pinus. O nosso está mais escuro por ter sido impermeabilizado.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20banco%20ripado."
-      },
+      },*/
       {
         category: "moveis",
         title: "Mesa",
@@ -301,20 +321,20 @@ const products = [
         description: "Aspirador De Pó Robô Multilaser HO041 - Bivolt.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador%20robô."
       },
-      {
+      /*{
         category: "eletro",
         title: "Aspirador de Pó",
         image: "images/aspirador.jpg",
         description: "Aspirador De Pó e Água Electrolux Acqua Power AQP20.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador."
-      },
-      {
+      },*/
+      /*{
         category: "eletro",
         title: "Lava e Seca",
         image: "images/lavaeseca.jpg",
         description: "Lava e Seca LG 8,5KG Direct Drive. A base está bem oxidada.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Lava%20e%20Seca."
-      },
+      },*/
       {
         category: "diversos",
         title: "Nissan Kicks 2018",
@@ -378,13 +398,13 @@ const products = [
         description: "Ferro de Passar a Seco Black + Decker VFA Eco - Preto - Ferro de Passar a Seco.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20ferro."
       },
-      {
+      /*{
         category: "diversos",
         title: "Tábua de passar",
         image: "images/tabua.jpg",
         description: "Tábua de passar roupa grande Members Mark. Alguns pontos de oxidação.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20tábua."
-      },
+      },*/
       {
         category: "doacoes",
         title: "Copos simples",
@@ -410,7 +430,7 @@ const products = [
         category: "doacoes",
         title: "Pratos brancos",
         image: "images/pratosbrancos.jpg",
-        description: "Aqueles do cotidiano mesmo, tem 2 fundos, 2 de sobremesa e 4 grandes (ainda tem 1 maior ainda, diferente de todos, que compramos errado).",
+        description: "Aqueles do cotidiano mesmo, tem 2 fundos, 4 de sobremesa e 4 grandes (ainda tem 1 maior ainda, diferente de todos, que compramos errado).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20brancos."
       },
       {
@@ -427,13 +447,13 @@ const products = [
         description: "Jogo de Tigelas de Vidro (3 Peças).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20tigelas."
       },
-      {
+      /*{
         category: "doacoes",
         title: "Organizadores Metálicos",
         image: "images/metais.jpg",
         description: "Organizadores metálicos para armários.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20organizadores."
-      },
+      },*/
       {
         category: "doacoes",
         title: "Porta-rolos cromado",
