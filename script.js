@@ -212,7 +212,7 @@ const products = [
       {
         category: "moveis",
         title: "Sofá - 2,20m",
-        image: "images/banco.jpg",
+        image: "images/sofa.jpg",
         description: "Sofá três (ou quatro) lugares em estrutura metálica. Cansado e tá sujinho, mas estrutura muito boa e depois de uma lavadinha fica mais bonito.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20sofá."
       },
