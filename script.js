@@ -35,20 +35,20 @@ const products = [
         description: "Fritadeira Elétrica sem Óleo Cadence 2.3L Perfect Fryer FRT531 com Timer Preta. Tá castigada, um botão faltando que dá pra comprar na web.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20airfryer."
       },
-      {
+      /*{
         category: "cozinha",
         title: "Mixer com utensílios",
         image: "images/mixer.jpg",
         description: "Mixer com Copo 400W 220V RI1366/04 Preto PHILIPS WALITA.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mixer."
-      },
-      {
+      },*/
+      /*{
         category: "cozinha",
         title: "Batedeira Planetária",
         image: "images/batedeira.jpg",
         description: "Batedeira Planetária Philco PHP500P Turbo 700W. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20batedeira."
-      },
+      },*/
       {
         category: "cozinha",
         title: "Panela de Pressão Elétrica",
@@ -98,13 +98,13 @@ const products = [
         description: "Chaleira Elétrica Britânia 1l 220v Inox (com pontos de ferrugem).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chaleira."
       },
-      {
+      /*{
         category: "cozinha",
         title: "Panelas",
         image: "images/panelas.jpg",
         description: "Kirkland Signature (Costco) Hard Anodized Cookware.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20panelas."
-      },
+      },*/
       {
         category: "cozinha",
         title: "Leiteira",
@@ -140,13 +140,13 @@ const products = [
         description: "Forma Assadeira Redonda Com Fundo Removível - é essa, mas azul claro.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20fundo%20removível."
       },
-      {
+      /*{
         category: "cozinha",
         title: "Forma de pão",
         image: "images/formas.jpg",
         description: "Duas formas de pão antiaderente Vermont 26cm Grafite - Tramontina.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20pão."
-      },
+      },*/
       {
         category: "cozinha",
         title: "Talheres",
@@ -343,13 +343,13 @@ const products = [
         description: "Esfregão Mop Twister Bt 1902 Noviça 6 Litros - Bettanin - Cinza / Verde.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mop."
       },
-      {
+      /*{
         category: "diversos",
         title: "Painel Mural Magnetico",
         image: "images/painelmetal.jpg",
         description: "Painel de Metal para fotos/recados Magnetico 60 X 90. Algumas marcas de uso, mas bem conservado.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20painel."
-      },
+      },*/
       {
         category: "diversos",
         title: "Molduras",
