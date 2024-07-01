@@ -1,18 +1,18 @@
 const products = [
-    {
+    /*{
         category: "cozinha",
         title: "Sanduicheira",
         image: "images/tostex.jpg",
         description: "Grill Asteria Compact Mallory Grill multifunção, Luzes indicadoras de funcionamento, Alça com toque-frio. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20sanduicheira."
-      },
-      {
+      },*/
+      /*{
         category: "cozinha",
         title: "Fogão",
         image: "images/fogao.jpg",
         description: "Fogão 4 Bocas Electrolux 56SB - Acendimento Automático Branco.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20fogão."
-      },
+      },*/
       {
         category: "cozinha",
         title: "Maquininha de espresso",
@@ -167,13 +167,13 @@ const products = [
         description: "Jogo Talher Madrid Aco Inox 20 peças da saudosa Etna.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres."
       },
-      {
+      /*{
         category: "cozinha",
         title: "Faca lacrada",
         image: "images/facaathus.jpg",
         description: "Faca para carne 8 polegadas Tramontina Athus. Nunca abrimos.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20faca%20Tramontina."
-      },
+      },*/
       {
         category: "cozinha",
         title: "Conjunto de sobremesa",
@@ -237,7 +237,7 @@ const products = [
         description: "Mesa De Jantar Square Redonda Branco com várias manchinhas no tampo, vale pintar/envelopar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20mesa."
       },*/
-      {
+      /*{
         category: "moveis",
         title: "Rack preto simples",
         image: "images/rackpreto.jpg",
@@ -250,14 +250,14 @@ const products = [
         image: "images/aparadorbranco.jpg",
         description: "Buffet Essen Branco 123 cm. A estrutura é bem simples e está com algumas marcas. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20buffet%20branco."
-      },
-      {
+      },*/
+      /*{
         category: "eletro",
         title: "Roku",
         image: "images/roku.jpg",
         description: "Roku Express: Dispositivo de streaming para TV HD/Full HD compatível com Alexa, Siri e Google. Inclui Cabo HDMI Premium.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Roku."
-      },
+      },*/
       {
         category: "eletro",
         title: "Monitor 24'' 144hz",
@@ -300,13 +300,13 @@ const products = [
         description: "Atari Flashback com controles sem fio (o fio tá com uma emenda, mas funcionando, padrão VGA).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Atari."
       },
-      {
+      /*{
         category: "eletro",
         title: "TV 32''",
         image: "images/tvlg.jpg",
         description: "Smart TV LED 32'' HD LG 32LQ621CBSB. Wi-Fi não tá funcionando.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV%2032."
-      },
+      },*/
       /*{
         category: "eletro",
         title: "TV 40''",
@@ -468,13 +468,13 @@ const products = [
         description: "Pote Tramontina Freezinox Redondo Aço Inox Acabamento Fosco sem Tampa 20cm 2,2L. Cansado, arranhadinho, mas é ótimo.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bowl."
       },
-      {
+      /*{
         category: "doacoes",
         title: "Bloco para facas",
         image: "images/portafacas.jpg",
         description: "Cepo De Facas Jamie Oliver - outro artigo dos famigerados selinhos do pão de açúcar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bloco%20de%20facas."
-      },
+      },*/
       {
         category: "doacoes",
         title: "Conjunto de facas",
@@ -489,7 +489,7 @@ const products = [
         description: "Secador de Cabelo Gama Lumina Nano Tourmaline 2200W Prata e Rosa. Faltando bicos e tampa traseira.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20secador."
       },*/
-      {
+      /*{
         category: "doacoes",
         title: "Caixa de transporte de Luna <3",
         image: "images/casinha.jpg",
@@ -502,7 +502,7 @@ const products = [
         image: "images/portao.jpg",
         description: "Grade para Porta - Portãozinho Pet em Aço Branco. Duas unidades bem desgastadas.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20caixinha%20pet."
-      },
+      },*/
       {
         category: "diversos",
         title: "Comedouro Automático",
