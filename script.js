@@ -278,7 +278,14 @@ const products = [
         title: "TV 32''",
         image: "images/tvlg.jpg",
         description: "Smart TV LED 32'' HD LG 32LQ621CBSB. Wi-Fi não tá funcionando.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV%2032."
+      },
+      {
+        category: "eletro",
+        title: "TV 40''",
+        image: "images/tv40.jpg",
+        description: "TV Led Panasonic 40'' Smart Full HD 2 HDMI 1 USB 40DS600B. Não tão smart assim, antiga e seria bom uma revisão/limpeza interna.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV%2040."
       },
       {
         category: "eletro",
@@ -298,7 +305,7 @@ const products = [
         category: "eletro",
         title: "Lava e Seca",
         image: "images/lavaeseca.jpg",
-        description: "Lava e Seca LG 8,5KG Direct Drive.",
+        description: "Lava e Seca LG 8,5KG Direct Drive. A base está bem oxidada.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Lava%20e%20Seca."
       },
       {
@@ -319,7 +326,7 @@ const products = [
         category: "diversos",
         title: "Colchão Emma",
         image: "images/colchao.jpg",
-        description: "Colchão Queen Emma Duo Comfort - 10 anos de garantia, conforto ortopédico dupla face - 158x198cm.",
+        description: "Colchão Queen Emma Duo Comfort - 10 anos de garantia, conforto ortopédico dupla face - 158x198cm. Temos uma base box Ortobom antiguinha que pode ir de brinde.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20colchão."
       },
       {
