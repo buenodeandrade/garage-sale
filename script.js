@@ -27,13 +27,13 @@ const products = [
         description: "Stanley Caneca de cerveja clássica com abridor de garrafa, caneca e copo isolado de 680 ml, Hammertone Green.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20stanley."
       },
-      {
+      /*{
         category: "cozinha",
         title: "Fritadeira Elétrica Cadence",
         image: "images/airfry.jpg",
         description: "Fritadeira Elétrica sem Óleo Cadence 2.3L Perfect Fryer FRT531 com Timer Preta. Tá castigada, um botão faltando que dá pra comprar na web.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20airfryer."
-      },
+      },*/
       /*{
         category: "cozinha",
         title: "Mixer com utensílios",
@@ -90,13 +90,13 @@ const products = [
         description: "Garrafa Térmica Invicta Vogue 750ml Verde e outra menorzinha cinza.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20térmicas."
       },
-      {
+      /*{
         category: "cozinha",
         title: "Chaleira elétrica",
         image: "images/chaleira.jpg",
         description: "Chaleira Elétrica Britânia 1l 220v Inox (com pontos de ferrugem).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chaleira."
-      },
+      },*/
       /*{
         category: "cozinha",
         title: "Panelas",
@@ -216,13 +216,13 @@ const products = [
         description: "Sofá três (ou quatro) lugares em estrutura metálica. Cansado e tá sujinho, mas estrutura muito boa e depois de uma lavadinha fica mais bonito.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20sofá."
       },
-      {
+      /*{
         category: "moveis",
         title: "Bancos (4 un)",
         image: "images/banco.jpg",
         description: "Conjunto 4 Banquetas Baixas Piratini 160 em Madeira Maciça Mel.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20bancos."
-      },
+      },*/
       /*{
         category: "moveis",
         title: "Banco ripado",
@@ -230,13 +230,13 @@ const products = [
         description: "Banco Ripado em Madeira de Pinus. O nosso está mais escuro por ter sido impermeabilizado.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20banco%20ripado."
       },*/
-      {
+      /*{
         category: "moveis",
         title: "Mesa",
         image: "images/mesa.jpg",
         description: "Mesa De Jantar Square Redonda Branco com várias manchinhas no tampo, vale pintar/envelopar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20mesa."
-      },
+      },*/
       {
         category: "moveis",
         title: "Rack preto simples",
@@ -272,13 +272,13 @@ const products = [
         description: "Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado | Azul.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20azul."
       },
-      {
+      /*{
         category: "eletro",
         title: "Echo Dot 3ª geração",
         image: "images/alexa3.jpg",
         description: "Echo Dot 3ª geraçãoSmart Speaker Amazon | Cinza.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20cinza."
-      },
+      },*/
       {
         category: "eletro",
         title: "Lâmpada RGB Inteligente",
@@ -356,13 +356,13 @@ const products = [
         description: "Mini Chapinha De Bolsa Portátil De Cabelo Bivolt Prancha.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chapinha."
       },
-      {
+      /*{
         category: "diversos",
         title: "Colchão Emma",
         image: "images/colchao.jpg",
         description: "Colchão Queen Emma Duo Comfort - 10 anos de garantia, conforto ortopédico dupla face - 158x198cm. Temos uma base box Ortobom antiguinha que pode ir de brinde.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20colchão."
-      },
+      },*/
       {
         category: "diversos",
         title: "Lixeiras 3, 5 e 30 litros",
@@ -412,13 +412,13 @@ const products = [
         description: "Jogo Copos Lights Long Drink 410ml 5 (é, também quebrou um) Peças Nadir.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20copos."
       },
-      {
+      /*{
         category: "doacoes",
         title: "Liquidificador",
         image: "images/liquidificador.jpg",
         description: "Liquidificador Arno Faciclic Top Tampa Mod. Ln32 Preto. Cansado e o copinho tá quebrado, mas tem na shopee. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20liquidificador."
-      },
+      },*/
       {
         category: "doacoes",
         title: "Um monte de tapaué",
@@ -454,13 +454,13 @@ const products = [
         description: "Organizadores metálicos para armários.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20organizadores."
       },*/
-      {
+      /*{
         category: "doacoes",
         title: "Porta-rolos cromado",
         image: "images/portarolo.jpg",
         description: "Suporte para talheres e porta-rolos cromado com 1 barra e alguns ganchos. Tem pontinhos de ferrugem.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20porta-rolos."
-      },
+      },*/
       {
         category: "doacoes",
         title: "Bowl de aço inox",
@@ -482,13 +482,13 @@ const products = [
         description: "Conjunto de facas 6 peças Tramontina - a tesoura tá bem ruim, mas o resto tá ok.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20facas."
       },
-      {
+      /*{
         category: "doacoes",
         title: "Secador de Cabelos",
         image: "images/secador.jpg",
         description: "Secador de Cabelo Gama Lumina Nano Tourmaline 2200W Prata e Rosa. Faltando bicos e tampa traseira.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20secador."
-      },
+      },*/
       {
         category: "doacoes",
         title: "Caixa de transporte de Luna <3",
