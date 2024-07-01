@@ -510,13 +510,13 @@ const products = [
         description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático."
       },
-      {
+      /*{
         category: "doacoes",
         title: "Vitrola",
         image: "images/vitrola.jpg",
         description: "Crosley CR8005D-BL Cruiser Deluxe Vintage 3-Speed Bluetooth Suitcase Vinyl Record Player Turntable, Blue. Muito enferrujada.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20vitrola."
-      }
+      }*/
     // ... more products
   ];
   
