@@ -472,14 +472,14 @@ const products = [
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20marinex.",
         price: "nadinha, vê mermo"
       },
-      {
+      /*{
         category: "doacoes",
         title: "Jogo de Tigelas",
         image: "images/tigelas.jpg",
         description: "Jogo de Tigelas de Vidro (3 Peças).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20tigelas.",
         price: "nadinha, vê mermo"
-      },
+      },*/
       /*{
         category: "doacoes",
         title: "Organizadores Metálicos",
@@ -494,14 +494,14 @@ const products = [
         description: "Suporte para talheres e porta-rolos cromado com 1 barra e alguns ganchos. Tem pontinhos de ferrugem.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20porta-rolos."
       },*/
-      {
+      /*{
         category: "doacoes",
         title: "Bowl de aço inox",
         image: "images/bowl.jpg",
         description: "Pote Tramontina Freezinox Redondo Aço Inox Acabamento Fosco sem Tampa 20cm 2,2L. Cansado, arranhadinho, mas é ótimo.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bowl.",
         price: "nadinha, vê mermo"
-      },
+      },*/
       /*{
         category: "doacoes",
         title: "Bloco para facas",
