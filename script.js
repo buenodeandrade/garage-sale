@@ -62,20 +62,20 @@ const products = [
         description: "Purificador de Água Electrolux PE10X Bivolt Prata com Painel Easy Touch e 3 Temperaturas. Não está gelando",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20filtro."
       },*/
-      {
+      /*{
         category: "cozinha",
         title: "Taça pras visitas",
         image: "images/tacaazul.jpg",
         description: "Jogo de Taças de Vidro 330ml 11 Peças (uma quebrou, mas ainda serve um time) Haus - Bico de Jaca Empire. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20taças%20azuis."
-      },
-      {
+      },*/
+      /*{
         category: "cozinha",
         title: "Taças de cristal",
         image: "images/tacacristal.jpg",
         description: "Taça Bohemia Roberta - Vinho Tinto 350ml - Jg 06pcs. Na caixa, nunca usamos.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20taças%20Bohemia."
-      },
+      },*/
       {
         category: "cozinha",
         title: "Garrafas Térmicas",
@@ -111,13 +111,13 @@ const products = [
         description: "Leiteira antiaderente preta simples 2,4l.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20leiteira."
       },
-      {
+      /*{
         category: "cozinha",
         title: "Aparelho de jantar",
         image: "images/pratoscorona.jpg",
         description: "Aparelho de jantar de cerâmica Elisa Corona 20 peças (originalmente, pq quebramos 2 fundos e 1 grande). ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20bonitinhos."
-      },
+      },*/
       {
         category: "cozinha",
         title: "Refratário Redondo",
@@ -307,13 +307,13 @@ const products = [
         description: "Smart TV LED 32'' HD LG 32LQ621CBSB. Wi-Fi não tá funcionando.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV%2032."
       },
-      {
+      /*{
         category: "eletro",
         title: "TV 40''",
         image: "images/tv40.jpg",
         description: "TV Led Panasonic 40'' Smart Full HD 2 HDMI 1 USB 40DS600B. Não tão smart assim, antiga e seria bom uma revisão/limpeza interna.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV%2040."
-      },
+      },*/
       {
         category: "eletro",
         title: "Aspirador de Pó Robô",
