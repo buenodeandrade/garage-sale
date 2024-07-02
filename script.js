@@ -499,7 +499,9 @@ const products = [
         title: "Roku",
         image: "images/roku.jpg",
         description: "Roku Express: Dispositivo de streaming para TV HD/Full HD compatível com Alexa, Siri e Google. Inclui Cabo HDMI Premium.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Roku."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Roku.",
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "eletro",
@@ -623,7 +625,9 @@ const products = [
         title: "Bloco para facas",
         image: "images/portafacas.jpg",
         description: "Cepo De Facas Jamie Oliver - outro artigo dos famigerados selinhos do pão de açúcar.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bloco%20de%20facas."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bloco%20de%20facas.",
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
