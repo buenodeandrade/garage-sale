@@ -14,8 +14,8 @@ const products = [
         image: "images/stanley.jpg",
         description: "Stanley Caneca de cerveja clássica com abridor de garrafa, caneca e copo isolado de 680 ml, Hammertone Green.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20stanley.",
-        price: "R$ 190",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
@@ -68,8 +68,8 @@ const products = [
         image: "images/petisqueira.jpg",
         description: "Petisqueira de madeira quadrada com 4 potes de porcelana.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20petisqueira.",
-        price: "R$ 30",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
@@ -95,8 +95,8 @@ const products = [
         image: "images/talheres.jpg",
         description: "Jogo Talher Madrid Aco Inox 20 peças da saudosa Etna.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres.",
-        price: "R$ 50",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
@@ -104,8 +104,8 @@ const products = [
         image: "images/sobremesa.jpg",
         description: "Conjunto de sobremesa de vidro floral com 7 peças que lembra casa de vó.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20sobremesa.",
-        price: "R$ 30",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
@@ -203,8 +203,8 @@ const products = [
         image: "images/violao.jpg",
         description: "Violão Tagima Woodstock Acoustic TW-27 Grand Auditorium. Algumas marquinhas de oxidação. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20violão.",
-        price: "R$ 400",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "diversos",
@@ -257,8 +257,8 @@ const products = [
         image: "images/copos.jpg",
         description: "Jogo Copos Lights Long Drink 410ml 5 (é, também quebrou um) Peças Nadir.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20copos.",
-        price: "nadinha, vê mermo",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
@@ -275,8 +275,8 @@ const products = [
         image: "images/pratosbrancos.jpg",
         description: "Aqueles do cotidiano mesmo, tem 2 fundos, 4 de sobremesa e 4 grandes (ainda tem 1 maior ainda, diferente de todos, que compramos errado).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20brancos.",
-        price: "nadinha, vê mermo",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
@@ -284,8 +284,8 @@ const products = [
         image: "images/marinex.jpg",
         description: "Duas assadeira retangulares 2,2L Média Marinex e um redondo, creio que 2,4L.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20marinex.",
-        price: "nadinha, vê mermo",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
@@ -293,8 +293,8 @@ const products = [
         image: "images/facasverdes.jpg",
         description: "Conjunto de facas 6 peças Tramontina - a tesoura tá bem ruim, mas o resto tá ok.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20facas.",
-        price: "nadinha, vê mermo",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "diversos",
