@@ -23,7 +23,7 @@ const products = [
         image: "images/garrafas.jpg",
         description: "Garrafas Térmicas de Inox Takeya 24 ThermoFlask. Algumas marquinhas de uso, mas boas. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20garrafas.",
-        price: "R$ 100",
+        price: "R$ 100 cada",
         available: true
       },
       {
@@ -32,7 +32,7 @@ const products = [
         image: "images/termicas.jpg",
         description: "Garrafa Térmica Invicta Vogue 750ml Verde e outra menorzinha cinza.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20térmicas.",
-        price: "R$ 20",
+        price: "R$ 20 cada",
         available: true
       },
       {
