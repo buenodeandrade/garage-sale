@@ -10,24 +10,6 @@ const products = [
       },
       {
         category: "cozinha",
-        title: "Caneca Stanley",
-        image: "images/stanley.jpg",
-        description: "Stanley Caneca de cerveja clássica com abridor de garrafa, caneca e copo isolado de 680 ml, Hammertone Green.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20stanley.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
-        category: "cozinha",
-        title: "Garrafas Térmicas",
-        image: "images/garrafas.jpg",
-        description: "Garrafas Térmicas de Inox Takeya 24 ThermoFlask. Algumas marquinhas de uso, mas boas. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20garrafas.",
-        price: "R$ 100 cada",
-        available: true
-      },
-      {
-        category: "cozinha",
         title: "Bules Térmicos",
         image: "images/termicas.jpg",
         description: "Garrafa Térmica Invicta Vogue 750ml Verde e outra menorzinha cinza.",
@@ -37,39 +19,12 @@ const products = [
       },
       {
         category: "cozinha",
-        title: "Leiteira",
-        image: "images/leiteira.jpg",
-        description: "Leiteira antiaderente preta simples 2,4l.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20leiteira.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
-        category: "cozinha",
         title: "Refratário Redondo",
         image: "images/fontignac.jpg",
         description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açúcar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
         price: "R$ 120",
         available: true
-      },
-      {
-        category: "cozinha",
-        title: "Ramequins",
-        image: "images/ramekin.jpg",
-        description: "Conjunto de 4 ramequins de porcelana com texturas.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20ramequins.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
-        category: "cozinha",
-        title: "Petisqueirinha",
-        image: "images/petisqueira.jpg",
-        description: "Petisqueira de madeira quadrada com 4 potes de porcelana.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20petisqueira.",
-        price: "JÁ FOI",
-        available: false
       },
       {
         category: "cozinha",
@@ -91,24 +46,6 @@ const products = [
       },
       {
         category: "cozinha",
-        title: "Talheres",
-        image: "images/talheres.jpg",
-        description: "Jogo Talher Madrid Aco Inox 20 peças da saudosa Etna.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
-        category: "cozinha",
-        title: "Conjunto de sobremesa",
-        image: "images/sobremesa.jpg",
-        description: "Conjunto de sobremesa de vidro floral com 7 peças que lembra casa de vó.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20sobremesa.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
-        category: "cozinha",
         title: "Boleira Pequena",
         image: "images/boleirap.jpg",
         description: "Boleira Pequena Com Pé Cristal Bolinha 20cm Wolff Pearl.",
@@ -123,15 +60,6 @@ const products = [
         description: "Boleira de vidro para bolo com pé.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20grande.",
         price: "R$ 40",
-        available: true
-      },
-      {
-        category: "moveis",
-        title: "Sofá - 2,20m",
-        image: "images/sofa.jpg",
-        description: "Sofá três (ou quatro) lugares em estrutura metálica. Cansado e tá sujinho, mas estrutura muito boa e depois de uma lavadinha fica mais bonito.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20sofá.",
-        price: "R$ 1.300",
         available: true
       },
       {
@@ -252,6 +180,15 @@ const products = [
         available: true
       },
       {
+        category: "diversos",
+        title: "Comedouro Automático",
+        image: "images/comedouro.jpg",
+        description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático.",
+        price: "R$ 200",
+        available: true
+      },
+      {
         category: "doacoes",
         title: "Copos simples",
         image: "images/copos.jpg",
@@ -266,8 +203,8 @@ const products = [
         image: "images/tapaue.jpg",
         description: "Tem desse da foto, tem grande, tem diferente, tem de outras marcas, cores, etc...",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20tapaué.",
-        price: "nadinha, vê mermo",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
@@ -297,13 +234,49 @@ const products = [
         available: false
       },
       {
-        category: "diversos",
-        title: "Comedouro Automático",
-        image: "images/comedouro.jpg",
-        description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático.",
-        price: "R$ 200",
-        available: true
+        category: "cozinha",
+        title: "Leiteira",
+        image: "images/leiteira.jpg",
+        description: "Leiteira antiaderente preta simples 2,4l.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20leiteira.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "cozinha",
+        title: "Ramequins",
+        image: "images/ramekin.jpg",
+        description: "Conjunto de 4 ramequins de porcelana com texturas.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20ramequins.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "cozinha",
+        title: "Petisqueirinha",
+        image: "images/petisqueira.jpg",
+        description: "Petisqueira de madeira quadrada com 4 potes de porcelana.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20petisqueira.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "cozinha",
+        title: "Talheres",
+        image: "images/talheres.jpg",
+        description: "Jogo Talher Madrid Aco Inox 20 peças da saudosa Etna.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "cozinha",
+        title: "Conjunto de sobremesa",
+        image: "images/sobremesa.jpg",
+        description: "Conjunto de sobremesa de vidro floral com 7 peças que lembra casa de vó.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20sobremesa.",
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
@@ -311,6 +284,24 @@ const products = [
         image: "images/tostex.jpg",
         description: "Grill Asteria Compact Mallory Grill multifunção, Luzes indicadoras de funcionamento, Alça com toque-frio. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20sanduicheira.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "cozinha",
+        title: "Caneca Stanley",
+        image: "images/stanley.jpg",
+        description: "Stanley Caneca de cerveja clássica com abridor de garrafa, caneca e copo isolado de 680 ml, Hammertone Green.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20stanley.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "cozinha",
+        title: "Garrafas Térmicas",
+        image: "images/garrafas.jpg",
+        description: "Garrafas Térmicas de Inox Takeya 24 ThermoFlask. Algumas marquinhas de uso, mas boas. ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20garrafas.",
         price: "JÁ FOI",
         available: false
       },
@@ -437,6 +428,15 @@ const products = [
         image: "images/potesvidro.jpg",
         description: "Conjunto 3 Porta-mantimentos Redondo de Vidro com Tampa de Aço 1,7L/1,3L/880ml - Wolff.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20porta-mantimentos.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "moveis",
+        title: "Sofá - 2,20m",
+        image: "images/sofa.jpg",
+        description: "Sofá três (ou quatro) lugares em estrutura metálica. Cansado e tá sujinho, mas estrutura muito boa e depois de uma lavadinha fica mais bonito.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20sofá.",
         price: "JÁ FOI",
         available: false
       },
