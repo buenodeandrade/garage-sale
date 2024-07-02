@@ -41,8 +41,8 @@ const products = [
         image: "images/leiteira.jpg",
         description: "Leiteira antiaderente preta simples 2,4l.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20leiteira.",
-        price: "R$ 15",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
@@ -59,8 +59,8 @@ const products = [
         image: "images/ramekin.jpg",
         description: "Conjunto de 4 ramequins de porcelana com texturas.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20ramequins.",
-        price: "R$ 15",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
