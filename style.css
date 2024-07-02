@@ -161,3 +161,17 @@ body {
   #popupDownload:hover {
     background-color: #7f5539;
   }
+
+  .unavailable {
+    opacity: 0.7; /* Makes the product slightly lighter */
+    filter: grayscale(0.5); /* Adds a slight grayscale effect */
+    cursor: default; /* Removes the pointer cursor */
+  }
+  
+  .unavailable img {
+    opacity: 0.7;
+  }
+  
+  .unavailable h3 {
+    color: #7f5539; /* Use a different color for unavailable titles */
+  }
