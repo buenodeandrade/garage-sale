@@ -127,15 +127,6 @@ const products = [
       },
       {
         category: "diversos",
-        title: "Violão",
-        image: "images/violao.jpg",
-        description: "Violão Tagima Woodstock Acoustic TW-27 Grand Auditorium. Algumas marquinhas de oxidação. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20violão.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
-        category: "diversos",
         title: "Mini-chapinha",
         image: "images/chapinha.jpg",
         description: "Mini Chapinha De Bolsa Portátil De Cabelo Bivolt Prancha.",
@@ -554,6 +545,15 @@ const products = [
         image: "images/colchao.jpg",
         description: "Colchão Queen Emma Duo Comfort - 10 anos de garantia, conforto ortopédico dupla face - 158x198cm. Temos uma base box Ortobom antiguinha que pode ir de brinde.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20colchão.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "diversos",
+        title: "Violão",
+        image: "images/violao.jpg",
+        description: "Violão Tagima Woodstock Acoustic TW-27 Grand Auditorium. Algumas marquinhas de oxidação. ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20violão.",
         price: "JÁ FOI",
         available: false
       },
