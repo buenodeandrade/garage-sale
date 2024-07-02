@@ -314,281 +314,353 @@ const products = [
         price: "JÁ FOI",
         available: false
       },
-      /*{
+      {
         category: "cozinha",
         title: "Fogão",
         image: "images/fogao.jpg",
         description: "Fogão 4 Bocas Electrolux 56SB - Acendimento Automático Branco.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20fogão."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20fogão.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Fritadeira Elétrica Cadence",
         image: "images/airfry.jpg",
         description: "Fritadeira Elétrica sem Óleo Cadence 2.3L Perfect Fryer FRT531 com Timer Preta. Tá castigada, um botão faltando que dá pra comprar na web.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20airfryer."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20airfryer.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Mixer com utensílios",
         image: "images/mixer.jpg",
         description: "Mixer com Copo 400W 220V RI1366/04 Preto PHILIPS WALITA.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mixer."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mixer.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Batedeira Planetária",
         image: "images/batedeira.jpg",
         description: "Batedeira Planetária Philco PHP500P Turbo 700W. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20batedeira."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20batedeira.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Panela de Pressão Elétrica",
         image: "images/panelaeletrica.jpg",
         description: "Panela de Pressão Elétrica 6L EOS Multicooker Digital Titanium EPP60DT 220V. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20panela%20elétrica."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20panela%20elétrica.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Filtro",
         image: "images/gelagua.jpg",
         description: "Purificador de Água Electrolux PE10X Bivolt Prata com Painel Easy Touch e 3 Temperaturas. Não está gelando",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20filtro."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20filtro.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Taça pras visitas",
         image: "images/tacaazul.jpg",
         description: "Jogo de Taças de Vidro 330ml 11 Peças (uma quebrou, mas ainda serve um time) Haus - Bico de Jaca Empire. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20taças%20azuis."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20taças%20azuis.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Taças de cristal",
         image: "images/tacacristal.jpg",
         description: "Taça Bohemia Roberta - Vinho Tinto 350ml - Jg 06pcs. Na caixa, nunca usamos.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20taças%20Bohemia."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20taças%20Bohemia.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Chaleira elétrica",
         image: "images/chaleira.jpg",
         description: "Chaleira Elétrica Britânia 1l 220v Inox (com pontos de ferrugem).",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chaleira."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20chaleira.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Panelas",
         image: "images/panelas.jpg",
         description: "Kirkland Signature (Costco) Hard Anodized Cookware.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20panelas."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20panelas.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Aparelho de jantar",
         image: "images/pratoscorona.jpg",
         description: "Aparelho de jantar de cerâmica Elisa Corona 20 peças (originalmente, pq quebramos 2 fundos e 1 grande). ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20bonitinhos."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20bonitinhos.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Forma de pão",
         image: "images/formas.jpg",
         description: "Duas formas de pão antiaderente Vermont 26cm Grafite - Tramontina.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20pão."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20pão.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Faca lacrada",
         image: "images/facaathus.jpg",
         description: "Faca para carne 8 polegadas Tramontina Athus. Nunca abrimos.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20faca%20Tramontina."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20faca%20Tramontina.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "cozinha",
         title: "Porta-mantimentos",
         image: "images/potesvidro.jpg",
         description: "Conjunto 3 Porta-mantimentos Redondo de Vidro com Tampa de Aço 1,7L/1,3L/880ml - Wolff.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20porta-mantimentos."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20porta-mantimentos.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "moveis",
         title: "Cadeiras (4 un)",
         image: "images/cadeira.jpg",
         description: "Quatro cadeiras Madri em madeira ded demolição, uma tem um conserto pequeno na parte de baixo do assento, imperceptível. :)",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20cadeiras."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20cadeiras.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "moveis",
         title: "Bancos (4 un)",
         image: "images/banco.jpg",
         description: "Conjunto 4 Banquetas Baixas Piratini 160 em Madeira Maciça Mel.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20bancos."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20bancos.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "moveis",
         title: "Banco ripado",
         image: "images/bancoripado.jpg",
         description: "Banco Ripado em Madeira de Pinus. O nosso está mais escuro por ter sido impermeabilizado.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20banco%20ripado."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20banco%20ripado.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "moveis",
         title: "Mesa",
         image: "images/mesa.jpg",
         description: "Mesa De Jantar Square Redonda Branco com várias manchinhas no tampo, vale pintar/envelopar.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20mesa."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20mesa.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "moveis",
         title: "Rack preto simples",
         image: "images/rackpreto.jpg",
         description: "Rack Retrô Goslar Fosco Preto 162 cm. A estrutura é bem simples e está com alguns arranhões e fitas laterais soltando.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20rack%20preto."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20rack%20preto.",
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "moveis",
         title: "Buffet branco simples",
         image: "images/aparadorbranco.jpg",
         description: "Buffet Essen Branco 123 cm. A estrutura é bem simples e está com algumas marcas. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20buffet%20branco."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20buffet%20branco.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "eletro",
         title: "Roku",
         image: "images/roku.jpg",
         description: "Roku Express: Dispositivo de streaming para TV HD/Full HD compatível com Alexa, Siri e Google. Inclui Cabo HDMI Premium.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Roku."
-      },*/
-      /*{
+      },
+      {
         category: "eletro",
         title: "Echo Dot 3ª geração",
         image: "images/alexa3.jpg",
         description: "Echo Dot 3ª geraçãoSmart Speaker Amazon | Cinza.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20cinza."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20cinza.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "eletro",
         title: "TV 32''",
         image: "images/tvlg.jpg",
         description: "Smart TV LED 32'' HD LG 32LQ621CBSB. Wi-Fi não tá funcionando.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV%2032."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV%2032.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "eletro",
         title: "TV 40''",
         image: "images/tv40.jpg",
         description: "TV Led Panasonic 40'' Smart Full HD 2 HDMI 1 USB 40DS600B. Não tão smart assim, antiga e seria bom uma revisão/limpeza interna.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV%2040."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20TV%2040.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "eletro",
         title: "Aspirador de Pó",
         image: "images/aspirador.jpg",
         description: "Aspirador De Pó e Água Electrolux Acqua Power AQP20.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "eletro",
         title: "Lava e Seca",
         image: "images/lavaeseca.jpg",
         description: "Lava e Seca LG 8,5KG Direct Drive. A base está bem oxidada.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Lava%20e%20Seca."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Lava%20e%20Seca.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "diversos",
         title: "Colchão Emma",
         image: "images/colchao.jpg",
         description: "Colchão Queen Emma Duo Comfort - 10 anos de garantia, conforto ortopédico dupla face - 158x198cm. Temos uma base box Ortobom antiguinha que pode ir de brinde.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20colchão."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20colchão.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "diversos",
         title: "Painel Mural Magnetico",
         image: "images/painelmetal.jpg",
         description: "Painel de Metal para fotos/recados Magnetico 60 X 90. Algumas marcas de uso, mas bem conservado.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20painel."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20painel.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "diversos",
         title: "Tábua de passar",
         image: "images/tabua.jpg",
         description: "Tábua de passar roupa grande Members Mark. Alguns pontos de oxidação.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20tábua."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20tábua.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "doacoes",
         title: "Liquidificador",
         image: "images/liquidificador.jpg",
         description: "Liquidificador Arno Faciclic Top Tampa Mod. Ln32 Preto. Cansado e o copinho tá quebrado, mas tem na shopee. ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20liquidificador."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20liquidificador.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "doacoes",
         title: "Jogo de Tigelas",
         image: "images/tigelas.jpg",
         description: "Jogo de Tigelas de Vidro (3 Peças).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20tigelas.",
-        price: "nadinha, vê mermo"
-      },*/
-      /*{
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "doacoes",
         title: "Organizadores Metálicos",
         image: "images/metais.jpg",
         description: "Organizadores metálicos para armários.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20organizadores."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20organizadores.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "doacoes",
         title: "Porta-rolos cromado",
         image: "images/portarolo.jpg",
         description: "Suporte para talheres e porta-rolos cromado com 1 barra e alguns ganchos. Tem pontinhos de ferrugem.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20porta-rolos."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20porta-rolos.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "doacoes",
         title: "Bowl de aço inox",
         image: "images/bowl.jpg",
         description: "Pote Tramontina Freezinox Redondo Aço Inox Acabamento Fosco sem Tampa 20cm 2,2L. Cansado, arranhadinho, mas é ótimo.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bowl.",
-        price: "nadinha, vê mermo"
-      },*/
-      /*{
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "doacoes",
         title: "Bloco para facas",
         image: "images/portafacas.jpg",
         description: "Cepo De Facas Jamie Oliver - outro artigo dos famigerados selinhos do pão de açúcar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20bloco%20de%20facas."
-      },*/
-      /*{
+      },
+      {
         category: "doacoes",
         title: "Secador de Cabelos",
         image: "images/secador.jpg",
         description: "Secador de Cabelo Gama Lumina Nano Tourmaline 2200W Prata e Rosa. Faltando bicos e tampa traseira.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20secador."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20secador.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "doacoes",
         title: "Caixa de transporte de Luna <3",
         image: "images/casinha.jpg",
         description: "Caixa de transporte para pet azul | grande.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20caixinha%20pet."
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20caixinha%20pet.",
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
         title: "Portãozinho Pet",
         image: "images/portao.jpg",
         description: "Grade para Porta - Portãozinho Pet em Aço Branco. Duas unidades bem desgastadas.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20caixinha%20pet."
-      },*/
-      /*{
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20caixinha%20pet.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
         category: "doacoes",
         title: "Vitrola",
         image: "images/vitrola.jpg",
         description: "Crosley CR8005D-BL Cruiser Deluxe Vintage 3-Speed Bluetooth Suitcase Vinyl Record Player Turntable, Blue. Muito enferrujada.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20vitrola."
-      }*/
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20vitrola.",
+        price: "JÁ FOI",
+        available: false
+      }
     // ... more products
   ];
   
