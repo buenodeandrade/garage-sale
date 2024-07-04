@@ -1,5 +1,5 @@
-const bannerImages = document.getElementById('bannerImages');
 const bannerImage = document.getElementById('bannerImage');
+const galleryThumbnails = document.getElementById('galleryThumbnails');
 
 const products = [
       {
@@ -93,9 +93,9 @@ const products = [
         available: true
       },
       {
-        category: "ultimas",
+        category: "banner",
         title: "Nissan Kicks 2018",
-        image: "images/carro.jpg",
+        image: "images/carro0.jpg",
         description: "Nissan Kicks 1.6 SV CVT (Flex) 2018. Pack plus (banco de couro e seis airbags frontais e laterais). ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20carro.",
         price: "R$ 80k",
@@ -671,121 +671,198 @@ const products = [
     // ... more products
   ];
   
-  // Function to populate products in the HTML
-  function populateProducts(category) {
-    const productGrid = document.querySelector(`#${category} .product-grid`);
-    productGrid.innerHTML = ''; // Clear existing products
-  
-     // Sort products: available first
-     const sortedProducts = products
-     .filter(p => p.category === category)
-     .sort((a, b) => (a.available === b.available ? 0 : a.available ? -1 : 1));
- 
-   sortedProducts.forEach(product => {
-     const productItem = document.createElement('div');
-     productItem.classList.add('product-item');
-     if (!product.available) {
-       productItem.classList.add('unavailable'); // Add class for visual style
-     }
-     productItem.innerHTML = `
-       <img src="${product.image}" alt="${product.title}">
-       <h3>${product.title}</h3>
-       <h4>${product.price}</h4>
-       <p>${product.description}</p>
-     `;
-     productItem.addEventListener('click', () => {
-       openPopup(product);
-     });
-     productGrid.appendChild(productItem);
-   });
- }
-  
-  // Function to open the product popup
-  function openPopup(product) {
-    const popup = document.getElementById('productPopup');
-    document.getElementById('popupImage').src = product.image;
-    document.getElementById('popupTitle').textContent = product.title;
-    document.getElementById('popupPrice').textContent = product.price;
-    document.getElementById('popupDescription').textContent = product.description;
-    document.getElementById('popupWhatsapp').href = product.whatsappLink;
-    popup.style.display = 'block'; // Show popup
-  }
-  
-  // Function to close the popup
-  function closePopup() {
-    const popup = document.getElementById('productPopup');
-    popup.style.display = 'none'; // Hide popup
-  }
-  
-  // Populate products on page load
-  populateProducts('ultimas');
-  populateProducts('cozinha');
-  populateProducts('moveis');
-  populateProducts('eletro');
-  populateProducts('diversos');
-  populateProducts('doacoes');
+ // Function to populate products in the HTML
+function populateProducts(category) {
+  const productGrid = document.querySelector(`#${category} .product-grid`);
+  productGrid.innerHTML = ''; // Clear existing products
 
-   // Banner
-   const nissanKicks = products.find(product => product.title === "Nissan Kicks 2018");
+  // Sort products: available first
+  const sortedProducts = products
+    .filter(p => p.category === category)
+    .sort((a, b) => (a.available === b.available ? 0 : a.available ? -1 : 1));
 
-   function displayBanner(product) {
-     const images = [
-       product.image, 
-       "images/carro0.jpg", // Add more images here 
-       "images/carro1.jpg", // Add more images here 
-       "images/carro2.jpg", // Add more images here 
-       "images/carro3.jpg", // Add more images here 
-       "images/carro4.jpg", // Add more images here 
-       "images/carro5.jpg", // Add more images here 
-       "images/carro6.jpg", // Add more images here 
-       "images/carro7.jpg", // Add more images here 
-       "images/carro8.jpg", // Add more images here 
-       "images/carro9.jpg", // Add more images here 
-       "images/carro10.jpg", // Add more images here 
-       "images/carro11.jpg", // Add more images here 
-       "images/carro12.jpg", // Add more images here 
-       "images/carro13.jpg", // Add more images here 
-       "images/kicks14.jpg", // Add more images here
-       "images/carro15.jpg" // Add more images here 
-     ];
-     bannerImages.innerHTML = ''; // Clear existing images
-   
-     images.forEach((image, index) => {
-       const listItem = document.createElement('li');
-       const imageElement = document.createElement('img');
-       imageElement.src = image;
-       imageElement.alt = product.title;
-       imageElement.classList.add('banner-image');
-       listItem.appendChild(imageElement);
-       bannerImages.appendChild(listItem);
-     });
-   
-     bannerImage.src = images[0]; // Set the initial image
-     document.getElementById('bannerTitle').textContent = product.title;
-     document.getElementById('bannerDescription').textContent = product.description;
-     document.getElementById('bannerWhatsapp').href = product.whatsappLink; 
-   }
-   
-   // Example: Call the function to display the Nissan Kicks
-   displayBanner(nissanKicks); 
+  sortedProducts.forEach(product => {
+    const productItem = document.createElement('div');
+    productItem.classList.add('product-item');
+    if (!product.available) {
+      productItem.classList.add('unavailable'); // Add class for visual style
+    }
+    productItem.innerHTML = `
+      <img src="${product.image}" alt="${product.title}">
+      <h3>${product.title}</h3>
+      <h4>${product.price}</h4>
+      <p>${product.description}</p>
+    `;
+    productItem.addEventListener('click', () => {
+      openPopup(product);
+    });
+    productGrid.appendChild(productItem);
+  });
+}
 
-  function slideBanner() {
+// Function to open the product popup
+function openPopup(product) {
+  const popup = document.getElementById('productPopup');
+  document.getElementById('popupImage').src = product.image;
+  document.getElementById('popupTitle').textContent = product.title;
+  document.getElementById('popupPrice').textContent = product.price;
+  document.getElementById('popupDescription').textContent = product.description;
+  document.getElementById('popupWhatsapp').href = product.whatsappLink;
+  popup.style.display = 'block'; // Show popup
+}
+
+// Function to close the popup
+function closePopup() {
+  const popup = document.getElementById('productPopup');
+  popup.style.display = 'none'; // Hide popup
+}
+
+// Populate products on page load
+populateProducts('ultimas');
+populateProducts('cozinha');
+populateProducts('moveis');
+populateProducts('eletro');
+populateProducts('diversos');
+populateProducts('doacoes');
+
+// Banner
+const nissanKicks = products.find(product => product.title === "Nissan Kicks 2018");
+
+function displayBanner(product) {
+  // Define as imagens do banner 
+  const bannerImages = [
+    "images/carro0.jpg",
+    "images/carro1.jpg",
+    "images/carro2.jpg",
+    "images/carro3.jpg",
+    "images/carro4.jpg",
+    "images/carro5.jpg",
+    "images/carro6.jpg",
+    "images/carro7.jpg",
+    "images/carro8.jpg",
+    "images/carro9.jpg",
+    "images/carro10.jpg",
+    "images/carro11.jpg",
+    "images/carro12.jpg",
+    "images/carro13.jpg",
+    "images/carro14.jpg",
+    "images/carro15.jpg"
+  ];
+
+  // Exibe a primeira imagem inicialmente
+  bannerImage.src = bannerImages[0];
+  document.getElementById('bannerTitle').textContent = product.title;
+  document.getElementById('bannerDescription').textContent = product.description;
+  document.getElementById('bannerWhatsapp').href = product.whatsappLink;
+
+  // Cria as miniaturas para o carrossel do banner
+  bannerImages.forEach((image, index) => {
+    const listItem = document.createElement('li');
+    const imageElement = document.createElement('img');
+    imageElement.src = image;
+    imageElement.alt = product.title;
+    imageElement.classList.add('banner-image');
+    listItem.appendChild(imageElement);
+    bannerImage.parentNode.appendChild(listItem); // Adiciona as miniaturas como irmãos da imagem principal
+  });
+}
+
+displayBanner(nissanKicks);
+
+let bannerSlideIndex = 0;
+
+function slideBanner() {
   const images = document.querySelectorAll('.banner-image');
   bannerSlideIndex = (bannerSlideIndex + 1) % images.length;
-  bannerImage.src = images[bannerSlideIndex].src; 
-  }
+  bannerImage.src = images[bannerSlideIndex].src;
+}
 
-// Set an interval to slide the banner every 3 seconds (adjust as needed)
-    setInterval(slideBanner, 3000);
+setInterval(slideBanner, 5000); // Slide every 5 seconds
 
-bannerImages.addEventListener('click', (event) => {
-  if (event.target.tagName === 'IMG') {
-    const galleryImage = document.getElementById('galleryImage');
-    galleryImage.src = event.target.src;
-    document.getElementById('imageGalleryPopup').style.display = 'block';
-  }
-});
+// Image Gallery Popup
+let currentImageIndex = 0;
+let galleryImages = []; // Declare a variável galleryImages fora do escopo da função openImageGallery
 
+// Função para abrir a galeria de imagens
+function openImageGallery() {
+  galleryImages = Array.from(document.querySelectorAll('.banner-image')).map(img => img.src); // Atribui a galleryImages dentro da função
+
+  // Limpa as miniaturas existentes
+  galleryThumbnails.innerHTML = '';
+
+  // Cria miniaturas para cada imagem do banner
+  galleryImages.forEach((image, index) => {
+    const listItem = document.createElement('li');
+    const thumbnailElement = document.createElement('img');
+    thumbnailElement.src = image;
+    thumbnailElement.alt = `Thumbnail ${index + 1}`;
+    thumbnailElement.addEventListener('click', () => {
+      currentImageIndex = index;
+      showGalleryImage(index);
+    });
+    listItem.appendChild(thumbnailElement);
+    galleryThumbnails.appendChild(listItem);
+  });
+
+  // Exibe o popup da galeria de imagens
+  document.getElementById('imageGalleryPopup').style.display = 'block';
+  showGalleryImage(0); // Exibe a primeira imagem inicialmente
+}
+
+// Função para fechar o popup da galeria de imagens
 function closeImageGalleryPopup() {
   document.getElementById('imageGalleryPopup').style.display = 'none';
 }
+
+// Função para exibir a imagem selecionada na galeria de imagens
+function showGalleryImage(index) {
+  const galleryImages = Array.from(document.querySelectorAll('.banner-image')).map(img => img.src);
+  document.getElementById('galleryImage').src = galleryImages[index];
+}
+
+// Função para navegar para a imagem anterior
+function previousImage() {
+  currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+  showGalleryImage(currentImageIndex);
+}
+
+// Função para navegar para a próxima imagem
+function nextImage() {
+  currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+  showGalleryImage(currentImageIndex);
+}
+
+// Event listener para as miniaturas da galeria de imagens
+galleryThumbnails.addEventListener('click', (event) => {
+  if (event.target.tagName === 'IMG') {
+    const thumbnails = Array.from(galleryThumbnails.querySelectorAll('img'));
+    currentImageIndex = thumbnails.indexOf(event.target);
+    showGalleryImage(currentImageIndex);
+  }
+});
+
+// Event listeners for thumbnails
+galleryThumbnails.addEventListener('click', (event) => {
+  if (event.target.tagName === 'IMG') {
+    const thumbnails = Array.from(galleryThumbnails.querySelectorAll('img'));
+    const selectedIndex = thumbnails.indexOf(event.target);
+    showGalleryImage(selectedIndex);
+  }
+});
+
+// Function to download an image
+function downloadImage(imageUrl, imageName) {
+  const link = document.createElement('a');
+  link.href = imageUrl;
+  link.download = imageName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+// Add event listener for the "Save Image" button in the popup
+document.getElementById('popupDownload').addEventListener('click', () => {
+  const imageUrl = document.getElementById('popupImage').src;
+  const imageName = document.getElementById('popupTitle').textContent.replace(/\s+/g, '-').toLowerCase() + '.jpg';
+  downloadImage(imageUrl, imageName);
+});

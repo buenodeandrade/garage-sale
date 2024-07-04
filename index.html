@@ -33,7 +33,8 @@
       <p>A gente tá se mudando e precisando vender ou doar quase tudo. Fizemos essa listinha pra facilitar e, se interessar, é só mandar mensagem que a gente acerta. :) </p>
       <p>Todos os itens são usados, alguns bem novinhos, outros mais cansados. É só pedir que a gente manda fotos atuais. </p>
     </section>
-    <div class="banner">
+
+    <div class="banner" onclick="openImageGallery()">
       <div class="banner-content">
         <img src="" alt="Featured Product" id="bannerImage">
         <div class="banner-info">
@@ -42,44 +43,48 @@
           <a id="bannerWhatsapp" href="" target="_blank">Vem de zap</a>
         </div>
       </div>
-      <ul class="banner-images" id="bannerImages"></ul>
     </div>
+
     <div id="imageGalleryPopup" class="popup">
       <span class="close" onclick="closeImageGalleryPopup()">×</span>
-      <div class="gallery-content">
+      <div class="gallery-container">
         <img src="" alt="Gallery Image" id="galleryImage">
       </div>
+      <div class="gallery-thumbnails-container">
+        <ul class="gallery-thumbnails" id="galleryThumbnails"></ul>
+      </div>
+      <div class="gallery-nav">
+        <button class="prev" onclick="previousImage()"><</button>
+        <button class="next" onclick="nextImage()">></button>
+      </div>
     </div>
+
+    <!-- Seções dos produtos -->
     <section id="ultimas">
       <h2>Últimos itens</h2>
-      <div class="product-grid">
-        </div>
+      <div class="product-grid"></div>
+    </section>
     <section id="cozinha">
       <h2>Cozinha</h2>
-      <div class="product-grid">
-        </div>
+      <div class="product-grid"></div>
     </section>
     <section id="eletro">
       <h2>Eletrônicos</h2>
-        <div class="product-grid">
-        </div>
+      <div class="product-grid"></div>
     </section>
     <section id="diversos">
       <h2>Diversos</h2>
-        <div class="product-grid">
-          </div>
-      </section>
-      <section id="moveis">
-        <h2>Móveis</h2>
-        <div class="product-grid">
-          </div>
-      </section>
-      <section id="doacoes">
-        <h2>Doações</h2>
-        <div class="product-grid">
-          </div>
-      </section>
-    </main>
+      <div class="product-grid"></div>
+    </section>
+    <section id="moveis">
+      <h2>Móveis</h2>
+      <div class="product-grid"></div>
+    </section>
+    <section id="doacoes">
+      <h2>Doações</h2>
+      <div class="product-grid"></div>
+    </section>
+  </main>
 
   <footer>
     <p>© Vendinha ligeira até vender tudo (ou partir!).</p>

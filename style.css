@@ -1,230 +1,352 @@
 body {
-    font-family: 'Press Start 2P', cursive;
-    background-color: #f0f0f0;
-    color: #333;
-  }
-  
-  header {
-    background-color: #b22222;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #b22222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+h2 {
+  color: #003a70;
+  text-align: center;
+}
+
+h4 {
+  color: #b22222;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  background-color: #fff;
+  border: 2px solid #7f5539;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-item h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #003a70; /* Blue text */
+}
+
+.product-item p {
+  font-size: 0.9em;
+}
+
+footer {
+  background-color: #b22222; /* Blue footer */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Popup Styles (Updated) */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border: 2px solid #0056b3;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+.close {
+  color: #333;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #0056b3;
+}
+
+#popupImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+#popupTitle {
+  font-size: 1.5em;
+  color: #003a70; /* Blue text */
+  margin-bottom: 10px;
+}
+
+#popupDescription {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+#popupWhatsapp {
+  background-color: #003a70;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#popupWhatsapp:hover {
+  background-color: #7f5539;
+}
+
+#popupDownload {
+  background-color: #003a70;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#popupDownload:hover {
+  background-color: #7f5539;
+}
+
+.unavailable {
+  opacity: 0.7; /* Makes the product slightly lighter */
+  filter: grayscale(0.5); /* Adds a slight grayscale effect */
+  cursor: default; /* Removes the pointer cursor */
+}
+
+.unavailable img {
+  opacity: 0.7;
+}
+
+.unavailable h3 {
+  color: #7f5539; /* Use a different color for unavailable titles */
+}
+
+/* Estilos para o banner */
+.banner {
+  width: 100%; /* Largura fixa para o banner */
+  height: 500px; /* Altura fixa para o banner */
+  overflow: hidden; /* Oculta o conteúdo que ultrapassa o banner */
+  position: relative;
+  margin-bottom: 20px; /* Espaço abaixo do banner */
+}
+
+.banner-content {
+  width: 100%; /* Largura fixa para o banner */
+  height: 500px; /* Altura fixa para o banner */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.banner-content img {
+  width: 100%; /* Largura fixa para a imagem do banner */
+  height: auto; /* Altura fixa para a imagem do banner */
+  object-fit: contain; /* Cobrir o contêiner mantendo a proporção */
+  display: block; /* Garante que a imagem se comporte como um bloco */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.banner-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Galeria de Imagens */
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 95%;
+  position: absolute; /* Para posicionar o zoom */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Centraliza a imagem */
+}
+
+.gallery-container img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ajusta a imagem para caber no contêiner, sem distorção */
+}
+
+/* Estilos para o zoom */
+.gallery-container img {
+  transition: transform 0.3s; /* Adiciona uma transição suave para o zoom */
+}
+
+.gallery-container:hover img {
+  transform: scale(1.2); /* Aumenta o zoom ao passar o mouse */
+}
+
+/* Miniaturas da Galeria */
+.gallery-thumbnails-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.gallery-thumbnails {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.gallery-thumbnails li {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.gallery-thumbnails img {
+  width: 100px; /* Largura das miniaturas */
+  height: 60px; /* Altura das miniaturas */
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Botões de navegação */
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.gallery-nav button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  opacity: 0.7;
+}
+
+.gallery-nav button:hover {
+  opacity: 1;
+}
+
+.gallery-container img {
+  /* ... (Seu CSS anterior) ... */
+  pointer-events: none; /* Desabilita eventos de clique na imagem */
+}
+
+/* Popup da Galeria */
+.popup {
+  display: none; /* Oculto por padrão */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100; /* Garante que o popup fique em cima dos outros elementos */
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .gallery-thumbnails li {
+    margin-right: 5px;
   }
 
-  a:visited { 
-    text-decoration: none; 
-    color: whitesmoke; 
-   }
+  .gallery-thumbnails img {
+    width: 50px;
+    height: 30px;
+  }
+}
 
-   h2 {
-    color: #003a70;
-    text-align: center;
-   }
+.product-item h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #003a70; /* Blue text */
+  /* Adicionando responsividade para o título */
+  font-size: calc(1.2em + (1.5 - 1.2) * ((100vw - 320px) / (768 - 320)));
+}
 
-   h4 {
-    color: #b22222;
-    text-align: center;
-   }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .product-item {
-    background-color: #fff;
-    border: 2px solid #7f5539;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    position: relative;
-  }
-  
-  .product-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
+.product-item p {
+  font-size: 0.9em;
+  /* Adicionando responsividade para a descrição */
+  font-size: calc(0.9em + (1.2 - 0.9) * ((100vw - 320px) / (768 - 320)));
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  /* ... (Seu CSS anterior) ... */
   .product-item h3 {
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #003a70; /* Blue text */
+    font-size: 1em; /* Define o tamanho da fonte para telas menores */
   }
-  
+
   .product-item p {
-    font-size: 0.9em;
+    font-size: 0.8em; /* Define o tamanho da fonte para telas menores */
   }
-  
-  footer {
-    background-color: #b22222; /* Blue footer */
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  /* Popup Styles (Updated) */
-  .popup {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); 
-  }
-  
-  .popup-content {
-    background-color: #fff;
-    margin: 10% auto; 
-    padding: 20px;
-    border: 2px solid #0056b3;
-    width: 80%; 
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
-    position: relative;
-    text-align: center
-  }
-  
-  .close {
-    color: #333;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .close:hover {
-    color: #0056b3;
-  }
-  
-  #popupImage {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-    border-radius: 10px;
-  }
-  
-  #popupTitle {
-    font-size: 1.5em;
-    color: #003a70; /* Blue text */
-    margin-bottom: 10px;
-  }
-  
-  #popupDescription {
-    font-size: 1em;
-    line-height: 1.5;
-    margin-bottom: 15px;
-  }
-  
-  #popupWhatsapp {
-    background-color: #003a70;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-    margin-bottom: 10px;
-  }
-  
-  #popupWhatsapp:hover {
-    background-color: #7f5539;
-  }
-  
-  #popupDownload {
-    background-color: #003a70;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Press Start 2P', cursive;
-  }
-  
-  #popupDownload:hover {
-    background-color: #7f5539;
-  }
-
-  .unavailable {
-    opacity: 0.7; /* Makes the product slightly lighter */
-    filter: grayscale(0.5); /* Adds a slight grayscale effect */
-    cursor: default; /* Removes the pointer cursor */
-  }
-  
-  .unavailable img {
-    opacity: 0.7;
-  }
-  
-  .unavailable h3 {
-    color: #7f5539; /* Use a different color for unavailable titles */
-  }
-
-  .banner {
-    width: 100%;
-    position: relative;
-    overflow: hidden; /* Hide overflowing images */
-    height: 600px; /* Adjust height as needed */
-    margin-bottom: 20px; /* Add space between banner and content */
-  }
-  
-  .banner-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center; /* Center content vertically */
-  }
-
-  #imageGalleryPopup .gallery-content {
-    text-align: center;
-    margin: 5% auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 2px solid #0056b3;
-    border-radius: 10px;
-    width: 80%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    position: relative;
-  }
-  
-  #galleryImage {
-    max-width: 80%;
-    height: auto;
-    margin-bottom: 15px;
-    border-radius: 10px;
-  }
-
-  #bannerImage {
-    width: 100%;
-    height: auto;
-    object-fit: cover; /* Cover the container while maintaining aspect ratio */
-  }
-
-  .banner-info {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-  }
+}
