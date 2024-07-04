@@ -1,6 +1,6 @@
 const products = [
       {
-        category: "cozinha",
+        category: "ultimas",
         title: "Maquininha de espresso",
         image: "images/cafeteira.jpg",
         description: "Cafeteira Espresso Passione Preta Automática - TRES 3 Corações.",
@@ -9,7 +9,7 @@ const products = [
         available: true
       },
       {
-        category: "cozinha",
+        category: "ultimas",
         title: "Bules Térmicos",
         image: "images/termicas.jpg",
         description: "Garrafa Térmica Invicta Vogue 750ml Verde e outra menorzinha cinza.",
@@ -18,7 +18,7 @@ const products = [
         available: true
       },
       {
-        category: "cozinha",
+        category: "ultimas",
         title: "Refratário Redondo",
         image: "images/fontignac.jpg",
         description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açúcar.",
@@ -27,7 +27,7 @@ const products = [
         available: true
       },
       {
-        category: "cozinha",
+        category: "ultimas",
         title: "Vaporeira (steamer)",
         image: "images/steamer.jpg",
         description: "Vaporeira Fontignac (steamer) 24 Cm - mais uma dos selinhos do pão de açúcar.",
@@ -36,7 +36,7 @@ const products = [
         available: true
       },
       {
-        category: "cozinha",
+        category: "ultimas",
         title: "Forma com Fundo Removível",
         image: "images/formaremovivel.jpg",
         description: "Forma Assadeira Redonda Com Fundo Removível - é essa, mas azul claro.",
@@ -45,7 +45,7 @@ const products = [
         available: true
       },
       {
-        category: "cozinha",
+        category: "ultimas",
         title: "Boleira Pequena",
         image: "images/boleirap.jpg",
         description: "Boleira Pequena Com Pé Cristal Bolinha 20cm Wolff Pearl.",
@@ -54,7 +54,7 @@ const products = [
         available: true
       },
       {
-        category: "cozinha",
+        category: "ultimas",
         title: "Boleira Grande",
         image: "images/boleirag.jpg",
         description: "Boleira de vidro para bolo com pé.",
@@ -63,7 +63,7 @@ const products = [
         available: true
       },
       {
-        category: "eletro",
+        category: "ultimas",
         title: "Monitor 24'' 144hz",
         image: "images/monitor.jpg",
         description: "Monitor LG UltraGear 24GN600-24'' IPS Full HD, 144Hz, 1ms (GtG), AMD FreeSync, Ajuste de Inclinação.",
@@ -72,16 +72,7 @@ const products = [
         available: true
       },
       {
-        category: "eletro",
-        title: "Echo Dot 5ª geração",
-        image: "images/alexa5.jpg",
-        description: "Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado | Azul.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20azul.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
-        category: "eletro",
+        category: "ultimas",
         title: "Lâmpada RGB Inteligente",
         image: "images/lampada.jpg",
         description: "Lâmpada Inteligente (2 unidadeds) I2go Wi-fi 10w Rgb Alexa E Google Cor da luz RGB e Branco.",
@@ -90,7 +81,7 @@ const products = [
         available: true
       },
       {
-        category: "eletro",
+        category: "ultimas",
         title: "Controle Universal",
         image: "images/controleuniversal.jpg",
         description: "Controle Universal Inteligente Infravermelho I2GO Home - Compatível com Alexa.",
@@ -99,7 +90,7 @@ const products = [
         available: true
       },
       {
-        category: "eletro",
+        category: "ultimas",
         title: "Atari",
         image: "images/atari.jpg",
         description: "Atari Flashback com controles sem fio (o fio tá com uma emenda, mas funcionando, padrão VGA).",
@@ -108,7 +99,7 @@ const products = [
         available: true
       },
       {
-        category: "eletro",
+        category: "ultimas",
         title: "Aspirador de Pó Robô",
         image: "images/robo.jpg",
         description: "Aspirador De Pó Robô Multilaser HO041 - Bivolt.",
@@ -117,7 +108,7 @@ const products = [
         available: true
       },
       {
-        category: "diversos",
+        category: "ultimas",
         title: "Nissan Kicks 2018",
         image: "images/carro.jpg",
         description: "Nissan Kicks 1.6 SV CVT (Flex) 2018. Pack plus (banco de couro e seis airbags frontais e laterais). ",
@@ -126,7 +117,7 @@ const products = [
         available: true
       },
       {
-        category: "diversos",
+        category: "ultimas",
         title: "Mini-chapinha",
         image: "images/chapinha.jpg",
         description: "Mini Chapinha De Bolsa Portátil De Cabelo Bivolt Prancha.",
@@ -135,7 +126,7 @@ const products = [
         available: true
       },
       {
-        category: "diversos",
+        category: "ultimas",
         title: "Lixeiras 3, 5 e 30 litros",
         image: "images/lixeiras.jpg",
         description: "Lixeiras em Inox Round Com Cesto Removível - Members Mark. Algumas marquinhas de oxidação. ",
@@ -144,7 +135,7 @@ const products = [
         available: true
       },
       {
-        category: "diversos",
+        category: "ultimas",
         title: "Mop",
         image: "images/mop.jpg",
         description: "Esfregão Mop Twister Bt 1902 Noviça 6 Litros - Bettanin - Cinza / Verde.",
@@ -153,7 +144,7 @@ const products = [
         available: true
       },
       {
-        category: "diversos",
+        category: "ultimas",
         title: "Molduras",
         image: "images/molduras.jpg",
         description: "Molduras da Tok&Stok de diversas cores e tamanhos: A4, A3, carta, quadrado...",
@@ -162,7 +153,7 @@ const products = [
         available: true
       },
       {
-        category: "diversos",
+        category: "ultimas",
         title: "Ferro de passar",
         image: "images/ferro.jpg",
         description: "Ferro de Passar a Seco Black + Decker VFA Eco - Preto - Ferro de Passar a Seco.",
@@ -171,7 +162,7 @@ const products = [
         available: true
       },
       {
-        category: "diversos",
+        category: "ultimas",
         title: "Comedouro Automático",
         image: "images/comedouro.jpg",
         description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
@@ -496,6 +487,15 @@ const products = [
       },
       {
         category: "eletro",
+        title: "Echo Dot 5ª geração",
+        image: "images/alexa5.jpg",
+        description: "Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado | Azul.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20azul.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "eletro",
         title: "Echo Dot 3ª geração",
         image: "images/alexa3.jpg",
         description: "Echo Dot 3ª geraçãoSmart Speaker Amazon | Cinza.",
@@ -715,6 +715,7 @@ const products = [
   }
   
   // Populate products on page load
+  populateProducts('ultimas');
   populateProducts('cozinha');
   populateProducts('moveis');
   populateProducts('eletro');
