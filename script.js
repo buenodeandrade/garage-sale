@@ -77,8 +77,8 @@ const products = [
         image: "images/alexa5.jpg",
         description: "Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado | Azul.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20azul.",
-        price: "R$ 220",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "eletro",
