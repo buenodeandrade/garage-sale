@@ -13,11 +13,11 @@ const products = [
       },
       {
         category: "ultimas",
-        title: "Bules Térmicos",
+        title: "Bule Térmico",
         image: "images/termicas.jpg",
-        description: "Garrafa Térmica Invicta Vogue 750ml Verde e outra menorzinha cinza.",
+        description: "Garrafa Térmica Invicta Vogue 750ml Verde",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20térmicas.",
-        price: "R$ 20 cada",
+        price: "R$ 20",
         available: true
       },
       {
