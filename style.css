@@ -175,3 +175,56 @@ body {
   .unavailable h3 {
     color: #7f5539; /* Use a different color for unavailable titles */
   }
+
+  .banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden; /* Hide overflowing images */
+    height: 600px; /* Adjust height as needed */
+    margin-bottom: 20px; /* Add space between banner and content */
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /* Center content vertically */
+  }
+
+  #imageGalleryPopup .gallery-content {
+    text-align: center;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #0056b3;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  #galleryImage {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+
+  #bannerImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  }
+
+  .banner-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+  }

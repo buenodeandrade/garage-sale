@@ -1,3 +1,6 @@
+const bannerImages = document.getElementById('bannerImages');
+const bannerImage = document.getElementById('bannerImage');
+
 const products = [
       {
         category: "ultimas",
@@ -91,24 +94,6 @@ const products = [
       },
       {
         category: "ultimas",
-        title: "Atari",
-        image: "images/atari.jpg",
-        description: "Atari Flashback com controles sem fio (o fio tá com uma emenda, mas funcionando, padrão VGA).",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Atari.",
-        price: "R$ 300",
-        available: true
-      },
-      {
-        category: "ultimas",
-        title: "Aspirador de Pó Robô",
-        image: "images/robo.jpg",
-        description: "Aspirador De Pó Robô Multilaser HO041 - Bivolt.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador%20robô.",
-        price: "R$ 170",
-        available: true
-      },
-      {
-        category: "ultimas",
         title: "Nissan Kicks 2018",
         image: "images/carro.jpg",
         description: "Nissan Kicks 1.6 SV CVT (Flex) 2018. Pack plus (banco de couro e seis airbags frontais e laterais). ",
@@ -141,15 +126,6 @@ const products = [
         description: "Esfregão Mop Twister Bt 1902 Noviça 6 Litros - Bettanin - Cinza / Verde.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mop.",
         price: "R$ 70",
-        available: true
-      },
-      {
-        category: "ultimas",
-        title: "Molduras",
-        image: "images/molduras.jpg",
-        description: "Molduras da Tok&Stok de diversas cores e tamanhos: A4, A3, carta, quadrado...",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20molduras.",
-        price: "Aí vareia",
         available: true
       },
       {
@@ -487,6 +463,15 @@ const products = [
       },
       {
         category: "eletro",
+        title: "Aspirador de Pó Robô",
+        image: "images/robo.jpg",
+        description: "Aspirador De Pó Robô Multilaser HO041 - Bivolt.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Aspirador%20robô.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "eletro",
         title: "Echo Dot 5ª geração",
         image: "images/alexa5.jpg",
         description: "Echo Dot 5ª geração | O Echo Dot com o melhor som já lançado | Azul.",
@@ -500,6 +485,15 @@ const products = [
         image: "images/alexa3.jpg",
         description: "Echo Dot 3ª geraçãoSmart Speaker Amazon | Cinza.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Alexa%20cinza.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "eletro",
+        title: "Atari",
+        image: "images/atari.jpg",
+        description: "Atari Flashback com controles sem fio (o fio tá com uma emenda, mas funcionando, padrão VGA).",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Atari.",
         price: "JÁ FOI",
         available: false
       },
@@ -572,6 +566,15 @@ const products = [
         image: "images/tabua.jpg",
         description: "Tábua de passar roupa grande Members Mark. Alguns pontos de oxidação.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20tábua.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "diversos",
+        title: "Molduras",
+        image: "images/molduras.jpg",
+        description: "Molduras da Tok&Stok de diversas cores e tamanhos: A4, A3, carta, quadrado...",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20molduras.",
         price: "JÁ FOI",
         available: false
       },
@@ -721,3 +724,68 @@ const products = [
   populateProducts('eletro');
   populateProducts('diversos');
   populateProducts('doacoes');
+
+   // Banner
+   const nissanKicks = products.find(product => product.title === "Nissan Kicks 2018");
+
+   function displayBanner(product) {
+     const images = [
+       product.image, 
+       "images/carro0.jpg", // Add more images here 
+       "images/carro1.jpg", // Add more images here 
+       "images/carro2.jpg", // Add more images here 
+       "images/carro3.jpg", // Add more images here 
+       "images/carro4.jpg", // Add more images here 
+       "images/carro5.jpg", // Add more images here 
+       "images/carro6.jpg", // Add more images here 
+       "images/carro7.jpg", // Add more images here 
+       "images/carro8.jpg", // Add more images here 
+       "images/carro9.jpg", // Add more images here 
+       "images/carro10.jpg", // Add more images here 
+       "images/carro11.jpg", // Add more images here 
+       "images/carro12.jpg", // Add more images here 
+       "images/carro13.jpg", // Add more images here 
+       "images/kicks14.jpg", // Add more images here
+       "images/carro15.jpg" // Add more images here 
+     ];
+     bannerImages.innerHTML = ''; // Clear existing images
+   
+     images.forEach((image, index) => {
+       const listItem = document.createElement('li');
+       const imageElement = document.createElement('img');
+       imageElement.src = image;
+       imageElement.alt = product.title;
+       imageElement.classList.add('banner-image');
+       listItem.appendChild(imageElement);
+       bannerImages.appendChild(listItem);
+     });
+   
+     bannerImage.src = images[0]; // Set the initial image
+     document.getElementById('bannerTitle').textContent = product.title;
+     document.getElementById('bannerDescription').textContent = product.description;
+     document.getElementById('bannerWhatsapp').href = product.whatsappLink; 
+   }
+   
+   // Example: Call the function to display the Nissan Kicks
+   displayBanner(nissanKicks); 
+
+  function slideBanner() {
+  const images = document.querySelectorAll('.banner-image');
+  bannerSlideIndex = (bannerSlideIndex + 1) % images.length;
+  bannerImage.src = images[bannerSlideIndex].src; 
+  }
+
+// Set an interval to slide the banner every 3 seconds (adjust as needed)
+    setInterval(slideBanner, 3000);
+
+bannerImages.addEventListener('click', (event) => {
+  if (event.target.tagName === 'IMG') {
+    const galleryImage = document.getElementById('galleryImage');
+    galleryImage.src = event.target.src;
+    document.getElementById('imageGalleryPopup').style.display = 'block';
+  }
+});
+
+function closeImageGalleryPopup() {
+  document.getElementById('imageGalleryPopup').style.display = 'none';
+}
