@@ -211,7 +211,7 @@ const products = [
       },
       {
         category: "cozinha",
-        title: "Petisqueirinha",
+        title: "Petisqueira",
         image: "images/petisqueira.jpg",
         description: "Petisqueira de madeira quadrada com 4 potes de porcelana.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20petisqueira.",
