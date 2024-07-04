@@ -67,15 +67,6 @@ const products = [
       },
       {
         category: "ultimas",
-        title: "Monitor 24'' 144hz",
-        image: "images/monitor.jpg",
-        description: "Monitor LG UltraGear 24GN600-24'' IPS Full HD, 144Hz, 1ms (GtG), AMD FreeSync, Ajuste de Inclinação.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20monitor.",
-        price: "R$ 550",
-        available: true
-      },
-      {
-        category: "ultimas",
         title: "Lâmpada RGB Inteligente",
         image: "images/lampada.jpg",
         description: "Lâmpada Inteligente (2 unidadeds) I2go Wi-fi 10w Rgb Alexa E Google Cor da luz RGB e Branco.",
@@ -458,6 +449,15 @@ const products = [
         image: "images/roku.jpg",
         description: "Roku Express: Dispositivo de streaming para TV HD/Full HD compatível com Alexa, Siri e Google. Inclui Cabo HDMI Premium.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Roku.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "eletro",
+        title: "Monitor 24'' 144hz",
+        image: "images/monitor.jpg",
+        description: "Monitor LG UltraGear 24GN600-24'' IPS Full HD, 144Hz, 1ms (GtG), AMD FreeSync, Ajuste de Inclinação.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20monitor.",
         price: "JÁ FOI",
         available: false
       },
