@@ -39,13 +39,13 @@ const products = [
         available: true
       },
       {
-        category: "ultimas",
+        category: "cozinha",
         title: "Forma com Fundo Removível",
         image: "images/formaremovivel.jpg",
         description: "Forma Assadeira Redonda Com Fundo Removível - é essa, mas azul claro.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20fundo%20removível.",
-        price: "R$ 30",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
