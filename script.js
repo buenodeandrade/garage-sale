@@ -12,7 +12,7 @@ const products = [
         available: true
       },
       {
-        category: "ultimas",
+        category: "cozinha",
         title: "Cafeteira italiana",
         image: "images/cafeteiraitaliana.jpg",
         description: "Cafeteira Italiana em Inox 4 xícaras (200ml).",
