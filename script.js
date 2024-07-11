@@ -53,7 +53,7 @@ const products = [
         image: "images/fontignac.jpg",
         description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açúcar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
-        price: "R$ 120",
+        price: "R$ 110",
         available: true
       },
       {
@@ -62,7 +62,7 @@ const products = [
         image: "images/steamer.jpg",
         description: "Vaporeira Fontignac (steamer) 24 Cm - mais uma dos selinhos do pão de açúcar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
-        price: "R$ 120",
+        price: "R$ 110",
         available: true
       },
       {
@@ -107,7 +107,7 @@ const products = [
         image: "images/controleuniversal.jpg",
         description: "Controle Universal Inteligente Infravermelho I2GO Home - Compatível com Alexa.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20controle.",
-        price: "R$ 50",
+        price: "R$ 40",
         available: true
       },
       {
@@ -134,7 +134,7 @@ const products = [
         image: "images/lixeiras.jpg",
         description: "Lixeiras em Inox Round Com Cesto Removível - Members Mark. Algumas marquinhas de oxidação. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20lixeiras.",
-        price: "R$ 30, 40 e 80",
+        price: "R$ 20, 30 e 60",
         available: true
       },
       {
@@ -152,7 +152,7 @@ const products = [
         image: "images/ferro.jpg",
         description: "Ferro de Passar a Seco Black + Decker VFA Eco - Preto - Ferro de Passar a Seco.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20ferro.",
-        price: "R$ 70",
+        price: "R$ 60",
         available: true
       },
       {
