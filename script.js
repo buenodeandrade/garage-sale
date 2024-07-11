@@ -31,6 +31,15 @@ const products = [
       },
       {
         category: "ultimas",
+        title: "Prensa francesa",
+        image: "images/prensa.jpg",
+        description: "Prensa francesa 2 xícaras para café Britt, Costa Rica.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20prensa.",
+        price: "R$ 120",
+        available: true
+      },
+      {
+        category: "ultimas",
         title: "Garrafa Térmica",
         image: "images/termicas.jpg",
         description: "Garrafa Térmica Invicta Vogue 750ml Verde",
