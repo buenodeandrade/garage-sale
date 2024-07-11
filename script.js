@@ -17,7 +17,16 @@ const products = [
         image: "images/cafeteiraitaliana.jpg",
         description: "Cafeteira Italiana em Inox 4 xícaras (200ml).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20cafeteira%20italiana.",
-        price: "R$ 30",
+        price: "R$ 25",
+        available: true
+      },
+      {
+        category: "ultimas",
+        title: "Moedor de café",
+        image: "images/moedor.jpg",
+        description: "Moedor de Café Bodum 11160-01EURO-3 Preto 220v.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20moedor.",
+        price: "R$ 280",
         available: true
       },
       {
