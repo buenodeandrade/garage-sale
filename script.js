@@ -17,8 +17,8 @@ const products = [
         image: "images/cafeteiraitaliana.jpg",
         description: "Cafeteira Italiana em Inox 4 xícaras (200ml).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20cafeteira%20italiana.",
-        price: "R$ 25",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
