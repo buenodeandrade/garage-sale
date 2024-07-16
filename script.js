@@ -102,22 +102,22 @@ const products = [
         available: true
       },
       {
-        category: "ultimas",
+        category: "eletro",
         title: "Controle Universal",
         image: "images/controleuniversal.jpg",
         description: "Controle Universal Inteligente Infravermelho I2GO Home - Compatível com Alexa.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20controle.",
-        price: "R$ 40",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
-        category: "banner",
+        category: "diversos",
         title: "Nissan Kicks 2018",
         image: "images/carro0.jpg",
         description: "Nissan Kicks 1.6 SV CVT (Flex) 2018. Pack plus (banco de couro e seis airbags frontais e laterais). ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20carro.",
-        price: "R$ 80k",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
