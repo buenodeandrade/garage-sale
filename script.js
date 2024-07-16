@@ -753,7 +753,7 @@ populateProducts('diversos');
 populateProducts('doacoes');
 
 // Banner
-const nissanKicks = products.find(product => product.title === "Nissan Kicks 2018");
+//const nissanKicks = products.find(product => product.title === "Nissan Kicks 2018");
 
 function displayBanner(product) {
   // Define as imagens do banner 
