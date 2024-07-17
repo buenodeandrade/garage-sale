@@ -12,15 +12,6 @@ const products = [
         available: true
       },
       {
-        category: "cozinha",
-        title: "Cafeteira italiana",
-        image: "images/cafeteiraitaliana.jpg",
-        description: "Cafeteira Italiana em Inox 4 xícaras (200ml).",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20cafeteira%20italiana.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
         category: "ultimas",
         title: "Moedor de café",
         image: "images/moedor.jpg",
@@ -66,15 +57,6 @@ const products = [
         available: true
       },
       {
-        category: "cozinha",
-        title: "Forma com Fundo Removível",
-        image: "images/formaremovivel.jpg",
-        description: "Forma Assadeira Redonda Com Fundo Removível - é essa, mas azul claro.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20fundo%20removível.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
         category: "ultimas",
         title: "Boleira Pequena",
         image: "images/boleirap.jpg",
@@ -100,24 +82,6 @@ const products = [
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20lâmpada.",
         price: "R$ 40",
         available: true
-      },
-      {
-        category: "eletro",
-        title: "Controle Universal",
-        image: "images/controleuniversal.jpg",
-        description: "Controle Universal Inteligente Infravermelho I2GO Home - Compatível com Alexa.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20controle.",
-        price: "JÁ FOI",
-        available: false
-      },
-      {
-        category: "diversos",
-        title: "Nissan Kicks 2018",
-        image: "images/carro0.jpg",
-        description: "Nissan Kicks 1.6 SV CVT (Flex) 2018. Pack plus (banco de couro e seis airbags frontais e laterais). ",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20carro.",
-        price: "JÁ FOI",
-        available: false
       },
       {
         category: "ultimas",
@@ -148,21 +112,57 @@ const products = [
       },
       {
         category: "ultimas",
-        title: "Ferro de passar",
-        image: "images/ferro.jpg",
-        description: "Ferro de Passar a Seco Black + Decker VFA Eco - Preto - Ferro de Passar a Seco.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20ferro.",
-        price: "R$ 60",
-        available: true
-      },
-      {
-        category: "ultimas",
         title: "Comedouro Automático",
         image: "images/comedouro.jpg",
         description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático.",
         price: "R$ 200",
         available: true
+      },
+      {
+        category: "cozinha",
+        title: "Cafeteira italiana",
+        image: "images/cafeteiraitaliana.jpg",
+        description: "Cafeteira Italiana em Inox 4 xícaras (200ml).",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20cafeteira%20italiana.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "cozinha",
+        title: "Forma com Fundo Removível",
+        image: "images/formaremovivel.jpg",
+        description: "Forma Assadeira Redonda Com Fundo Removível - é essa, mas azul claro.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20fundo%20removível.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "eletro",
+        title: "Controle Universal",
+        image: "images/controleuniversal.jpg",
+        description: "Controle Universal Inteligente Infravermelho I2GO Home - Compatível com Alexa.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20controle.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "diversos",
+        title: "Nissan Kicks 2018",
+        image: "images/carro0.jpg",
+        description: "Nissan Kicks 1.6 SV CVT (Flex) 2018. Pack plus (banco de couro e seis airbags frontais e laterais). ",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20carro.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "diversos",
+        title: "Ferro de passar",
+        image: "images/ferro.jpg",
+        description: "Ferro de Passar a Seco Black + Decker VFA Eco - Preto - Ferro de Passar a Seco.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20ferro.",
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
