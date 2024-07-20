@@ -111,13 +111,13 @@ const products = [
         available: true
       },
       {
-        category: "ultimas",
+        category: "diversos",
         title: "Comedouro Automático",
         image: "images/comedouro.jpg",
         description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático.",
-        price: "R$ 200",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
