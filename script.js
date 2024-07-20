@@ -40,15 +40,6 @@ const products = [
       },
       {
         category: "ultimas",
-        title: "Refratário Redondo",
-        image: "images/fontignac.jpg",
-        description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açúcar.",
-        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
-        price: "R$ 110",
-        available: true
-      },
-      {
-        category: "ultimas",
         title: "Vaporeira (steamer)",
         image: "images/steamer.jpg",
         description: "Vaporeira Fontignac (steamer) 24 Cm - mais uma dos selinhos do pão de açúcar.",
@@ -116,6 +107,15 @@ const products = [
         image: "images/comedouro.jpg",
         description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático.",
+        price: "JÁ FOI",
+        available: false
+      },
+      {
+        category: "cozinha",
+        title: "Refratário Redondo",
+        image: "images/fontignac.jpg",
+        description: "Refratário Redondo Fontignac - aquele mesmo dos selinhos do pão de açúcar.",
+        whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
         price: "JÁ FOI",
         available: false
       },
