@@ -71,7 +71,7 @@ const products = [
         image: "images/cafeteira.jpg",
         description: "Cafeteira Espresso Passione Preta Automática - TRES 3 Corações.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20cafeteira.",
-        price: "R$ 290",
+        price: "R$ 250",
         available: true
       },
       {
@@ -80,7 +80,7 @@ const products = [
         image: "images/moedor.jpg",
         description: "Moedor de Café Bodum (Dinamarca) 11160-01EURO-3 Preto 220v.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20moedor.",
-        price: "R$ 280",
+        price: "R$ 270",
         available: true
       },
       {
@@ -125,7 +125,7 @@ const products = [
         image: "images/boleirag.jpg",
         description: "Boleira de vidro para bolo com pé.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20grande.",
-        price: "R$ 40",
+        price: "R$ 35",
         available: true
       },
       {
@@ -134,7 +134,7 @@ const products = [
         image: "images/lampada.jpg",
         description: "Lâmpada Inteligente (2 unidadeds) I2go Wi-fi 10w Rgb Alexa E Google Cor da luz RGB e Branco.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20lâmpada.",
-        price: "R$ 40",
+        price: "R$ 35 cada",
         available: true
       },
       {
