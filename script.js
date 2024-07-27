@@ -8,8 +8,8 @@ const products = [
         image: "images/video.jpg",
         description: "Placa de Vídeo Galax NVIDIA GeForce GTX 1660 Super, Dual, 1-Click OC, 6GB, GDDR6, 192Bit (um ano de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20GPU.",
-        price: "R$ 900",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
@@ -17,8 +17,8 @@ const products = [
         image: "images/placa.jpg",
         description: "Placa Mãe Biostar B560MX-E PRO, Chipset B560, Intel LGA 1200, mATX, DDR4 (dois anos de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20MB.",
-        price: "R$ 400",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
@@ -26,8 +26,8 @@ const products = [
         image: "images/intel.jpg",
         description: "Processador Intel Core I5-10400F (dois anos de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20CPU",
-        price: "R$ 400",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
@@ -35,8 +35,8 @@ const products = [
         image: "images/crucial.jpg",
         description: "Memória DDR4 Crucial 8GB 2666MHZ (dois anos de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Crucial.",
-        price: "R$ 100",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
@@ -44,8 +44,8 @@ const products = [
         image: "images/corsair.jpg",
         description: "Memoria Corsair Vengeance LPX 8GB (1x8) DDR4 2666MHz Preta (três anos de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Corsair.",
-        price: "R$ 100",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
@@ -53,8 +53,8 @@ const products = [
         image: "images/fonte.jpg",
         description: "Fonte Cougar VTE 600 80 Plus Bronze (três anos de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20fonte.",
-        price: "R$ 200",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
@@ -62,8 +62,8 @@ const products = [
         image: "images/gabinete.jpg",
         description: "Gabinete xingling cansado, mas adesivado pra proteger da maresia e com 4 ventoinhas (2 DeepCool) - (dois anos de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20gabinete.",
-        price: "R$ 150",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
