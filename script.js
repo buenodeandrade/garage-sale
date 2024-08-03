@@ -161,8 +161,8 @@ const products = [
         image: "images/mop.jpg",
         description: "Esfregão Mop Twister Bt 1902 Noviça 6 Litros - Bettanin - Cinza / Verde.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mop.",
-        price: "R$ 70",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "diversos",
