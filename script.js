@@ -3,7 +3,7 @@ const galleryThumbnails = document.getElementById('galleryThumbnails');
 
 const products = [
       {
-        category: "ultimas",
+        category: "eletro",
         title: "GTX 1660 Super",
         image: "images/video.jpg",
         description: "Placa de Vídeo Galax NVIDIA GeForce GTX 1660 Super, Dual, 1-Click OC, 6GB, GDDR6, 192Bit (um ano de uso).",
@@ -12,7 +12,7 @@ const products = [
         available: false
       },
       {
-        category: "ultimas",
+        category: "eletro",
         title: "Placa Mãe Biostar",
         image: "images/placa.jpg",
         description: "Placa Mãe Biostar B560MX-E PRO, Chipset B560, Intel LGA 1200, mATX, DDR4 (dois anos de uso).",
@@ -21,7 +21,7 @@ const products = [
         available: false
       },
       {
-        category: "ultimas",
+        category: "eletro",
         title: "Intel Core I5",
         image: "images/intel.jpg",
         description: "Processador Intel Core I5-10400F (dois anos de uso).",
@@ -30,7 +30,7 @@ const products = [
         available: false
       },
       {
-        category: "ultimas",
+        category: "eletro",
         title: "Memória 8GB",
         image: "images/crucial.jpg",
         description: "Memória DDR4 Crucial 8GB 2666MHZ (dois anos de uso).",
@@ -39,7 +39,7 @@ const products = [
         available: false
       },
       {
-        category: "ultimas",
+        category: "eletro",
         title: "Memória 8GB",
         image: "images/corsair.jpg",
         description: "Memoria Corsair Vengeance LPX 8GB (1x8) DDR4 2666MHz Preta (três anos de uso).",
@@ -48,7 +48,7 @@ const products = [
         available: false
       },
       {
-        category: "ultimas",
+        category: "eletro",
         title: "Fonte 600w",
         image: "images/fonte.jpg",
         description: "Fonte Cougar VTE 600 80 Plus Bronze (três anos de uso).",
@@ -57,7 +57,7 @@ const products = [
         available: false
       },
       {
-        category: "ultimas",
+        category: "eletro",
         title: "Gabinete",
         image: "images/gabinete.jpg",
         description: "Gabinete xingling cansado, mas adesivado pra proteger da maresia e com 4 ventoinhas (2 DeepCool) - (dois anos de uso).",
@@ -93,7 +93,7 @@ const products = [
         available: true
       },
       {
-        category: "ultimas",
+        category: "cozinha",
         title: "Garrafa Térmica",
         image: "images/termicas.jpg",
         description: "Garrafa Térmica Invicta Vogue 750ml Verde",
@@ -111,7 +111,7 @@ const products = [
         available: true
       },
       {
-        category: "ultimas",
+        category: "cozinha",
         title: "Boleira Pequena",
         image: "images/boleirap.jpg",
         description: "Boleira Pequena Com Pé Cristal Bolinha 20cm Wolff Pearl.",
@@ -120,7 +120,7 @@ const products = [
         available: false
       },
       {
-        category: "ultimas",
+        category: "cozinha",
         title: "Boleira Grande",
         image: "images/boleirag.jpg",
         description: "Boleira de vidro para bolo com pé.",
@@ -147,7 +147,7 @@ const products = [
         available: true
       },
       {
-        category: "ultimas",
+        category: "diversos",
         title: "Lixeiras 3, 5 e 30 litros",
         image: "images/lixeiras.jpg",
         description: "Lixeiras em Inox Round Com Cesto Removível - Members Mark. Algumas marquinhas de oxidação. ",
@@ -156,7 +156,7 @@ const products = [
         available: false
       },
       {
-        category: "ultimas",
+        category: "diversos",
         title: "Mop",
         image: "images/mop.jpg",
         description: "Esfregão Mop Twister Bt 1902 Noviça 6 Litros - Bettanin - Cinza / Verde.",
