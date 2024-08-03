@@ -98,8 +98,8 @@ const products = [
         image: "images/termicas.jpg",
         description: "Garrafa Térmica Invicta Vogue 750ml Verde",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20térmicas.",
-        price: "R$ 20",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
@@ -116,8 +116,8 @@ const products = [
         image: "images/boleirap.jpg",
         description: "Boleira Pequena Com Pé Cristal Bolinha 20cm Wolff Pearl.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20pequena.",
-        price: "R$ 25",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
@@ -125,8 +125,8 @@ const products = [
         image: "images/boleirag.jpg",
         description: "Boleira de vidro para bolo com pé.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20boleira%20grande.",
-        price: "R$ 35",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
@@ -152,8 +152,8 @@ const products = [
         image: "images/lixeiras.jpg",
         description: "Lixeiras em Inox Round Com Cesto Removível - Members Mark. Algumas marquinhas de oxidação. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20lixeiras.",
-        price: "R$ 20, 30 e 60",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "ultimas",
