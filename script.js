@@ -8,8 +8,8 @@ const products = [
         image: "images/video.jpg",
         description: "Placa de Vídeo Galax NVIDIA GeForce GTX 1660 Super, Dual, 1-Click OC, 6GB, GDDR6, 192Bit (um ano de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20GPU.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "eletro",
@@ -17,8 +17,8 @@ const products = [
         image: "images/placa.jpg",
         description: "Placa Mãe Biostar B560MX-E PRO, Chipset B560, Intel LGA 1200, mATX, DDR4 (dois anos de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20MB.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "eletro",
@@ -26,8 +26,8 @@ const products = [
         image: "images/intel.jpg",
         description: "Processador Intel Core I5-10400F (dois anos de uso).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20CPU",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "eletro",
@@ -89,8 +89,8 @@ const products = [
         image: "images/prensa.jpg",
         description: "Prensa francesa 2 xícaras para café Britt (Costa Rica).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20prensa.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
@@ -107,8 +107,8 @@ const products = [
         image: "images/steamer.jpg",
         description: "Vaporeira Fontignac (steamer) 24 Cm - mais uma dos selinhos do pão de açúcar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20refratário.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
@@ -161,8 +161,8 @@ const products = [
         image: "images/mop.jpg",
         description: "Esfregão Mop Twister Bt 1902 Noviça 6 Litros - Bettanin - Cinza / Verde.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20mop.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "diversos",
@@ -170,8 +170,8 @@ const products = [
         image: "images/comedouro.jpg",
         description: "Comedouro Automático Smart para cães e gatos Kopek Kvs-200-7 Lt.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20comedouro%20automático.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "cozinha",
@@ -242,8 +242,8 @@ const products = [
         image: "images/tapaue.jpg",
         description: "Tem desse da foto, tem grande, tem diferente, tem de outras marcas, cores, etc...",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20tapaué.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
@@ -251,8 +251,8 @@ const products = [
         image: "images/pratosbrancos.jpg",
         description: "Aqueles do cotidiano mesmo, tem 2 fundos, 4 de sobremesa e 4 grandes (ainda tem 1 maior ainda, diferente de todos, que compramos errado).",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20brancos.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
@@ -260,8 +260,8 @@ const products = [
         image: "images/marinex.jpg",
         description: "Duas assadeira retangulares 2,2L Média Marinex e um redondo, creio que 2,4L.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20marinex.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "doacoes",
@@ -288,7 +288,7 @@ const products = [
         description: "Conjunto de 4 ramequins de porcelana com texturas.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20ramequins.",
         price: "JÁ FOI",
-        available: true
+        available: false
       },
       {
         category: "cozinha",
@@ -297,7 +297,7 @@ const products = [
         description: "Petisqueira de madeira quadrada com 4 potes de porcelana.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20petisqueira.",
         price: "JÁ FOI",
-        available: true
+        available: false
       },
       {
         category: "cozinha",
@@ -306,7 +306,7 @@ const products = [
         description: "Jogo Talher Madrid Aco Inox 20 peças da saudosa Etna.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20talheres.",
         price: "JÁ FOI",
-        available: true
+        available: false
       },
       {
         category: "cozinha",
@@ -315,7 +315,7 @@ const products = [
         description: "Conjunto de sobremesa de vidro floral com 7 peças que lembra casa de vó.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20conjunto%20de%20sobremesa.",
         price: "JÁ FOI",
-        available: true
+        available: false
       },
       {
         category: "cozinha",
@@ -441,7 +441,7 @@ const products = [
         description: "Aparelho de jantar de cerâmica Elisa Corona 20 peças (originalmente, pq quebramos 2 fundos e 1 grande). ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20pratos%20bonitinhos.",
         price: "JÁ FOI",
-        available: true
+        available: false
       },
       {
         category: "cozinha",
@@ -450,7 +450,7 @@ const products = [
         description: "Duas formas de pão antiaderente Vermont 26cm Grafite - Tramontina.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20forma%20de%20pão.",
         price: "JÁ FOI",
-        available: true
+        available: false
       },
       {
         category: "cozinha",
@@ -459,7 +459,7 @@ const products = [
         description: "Faca para carne 8 polegadas Tramontina Athus. Nunca abrimos.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20faca%20Tramontina.",
         price: "JÁ FOI",
-        available: true
+        available: false
       },
       {
         category: "cozinha",
@@ -468,7 +468,7 @@ const products = [
         description: "Conjunto 3 Porta-mantimentos Redondo de Vidro com Tampa de Aço 1,7L/1,3L/880ml - Wolff.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20porta-mantimentos.",
         price: "JÁ FOI",
-        available: true
+        available: false
       },
       {
         category: "moveis",
@@ -512,8 +512,8 @@ const products = [
         image: "images/mesa.jpg",
         description: "Mesa De Jantar Square Redonda Branco com várias manchinhas no tampo, vale pintar/envelopar.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20mesa.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "moveis",
@@ -521,8 +521,8 @@ const products = [
         image: "images/rackpreto.jpg",
         description: "Rack Retrô Goslar Fosco Preto 162 cm. A estrutura é bem simples e está com alguns arranhões e fitas laterais soltando.",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20rack%20preto.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "moveis",
@@ -530,8 +530,8 @@ const products = [
         image: "images/aparadorbranco.jpg",
         description: "Buffet Essen Branco 123 cm. A estrutura é bem simples e está com algumas marcas. ",
         whatsappLink: "https://wa.me/+5561998747781?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20buffet%20branco.",
-        price: "R$ 0",
-        available: true
+        price: "JÁ FOI",
+        available: false
       },
       {
         category: "eletro",
